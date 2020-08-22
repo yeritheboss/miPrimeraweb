@@ -42,7 +42,7 @@
         color:#4b5d67 ;
      }
    
-     #redes{
+     .redes{
         color:#4b5d67 ;
         font-style: italic;
         font-size: 50px;
@@ -62,7 +62,7 @@
 
      .cv{
         height:  50%;
-        width: 100%;
+        width: 90%;
 
      }
     .intro_cv{
