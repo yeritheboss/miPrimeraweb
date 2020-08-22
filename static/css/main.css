@@ -1,10 +1,35 @@
 
     body{
-        background-color: #797a7e;
+        background-color:#322f3d;
+        
     }
 
     hr{
-         background-color:#797a7e;
-         border-style:none;
-         height: 2px;
+         border-style: none;
+         border-top-style:dotted;
+         border-color:#59405c;
+         width: 5%;
+         border-width: 5px;
+         
     }
+
+    h1{
+        
+        color:#4b5d67 ;
+     }
+
+     p,p1,p2{
+        color:#4b5d67 ;
+     }
+
+     li{
+        color:#4b5d67 ;
+     }
+
+     td{
+        color:#4b5d67 ;
+
+     }
+     th{
+        color:#4b5d67 ;
+     }
