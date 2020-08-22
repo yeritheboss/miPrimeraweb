@@ -57,5 +57,17 @@
        
 
      }
-     
+
+     /*********para la pagina cv***********/
+
+     .cv{
+        height:  50%;
+        width: 100%;
+
+     }
+    .intro_cv{
+        font-style: italic;
+        font-size: 50px;
+
+    }
     
