@@ -1,7 +1,7 @@
 
     body{
         background-color:#322f3d;
-        
+
     }
 
     hr{
@@ -20,6 +20,14 @@
 
      p,p1,p2{
         color:#4b5d67 ;
+        
+    
+     }
+
+     .descripcion_yeri{
+         color:#4b5d67;
+         font-optical-sizing:auto ;
+         font-style: italic;
      }
 
      li{
@@ -33,3 +41,21 @@
      th{
         color:#4b5d67 ;
      }
+   
+     #redes{
+        color:#4b5d67 ;
+        font-style: italic;
+        font-size: 50px;
+        
+     }
+
+     img.social{
+        
+        
+        height: 100px;
+        width: 100px;
+       
+
+     }
+     
+    
