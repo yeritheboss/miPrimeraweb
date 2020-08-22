@@ -1,10 +1,10 @@
 
     body{
       /*  background-color:#322f3d;*/
-        background-image: url("C:/Users/gzber/OneDrive/Documents/GitHub/proyecto-aprendizaje/static/css/imagenes/cristal.png");
+        background-image: url("../css/imagenes/cristal.png");
         background-color: transparent;
         background-attachment: scroll;
-        background-blend-mode: darken;
+        background-origin: border-box;
     }
 
     hr{
