@@ -1,10 +1,11 @@
 
     body{
-      /*  background-color:#322f3d;*/
-        background-image: url("../css/imagenes/cristal.png");
-        background-color: transparent;
+        background-color:#322f3d;
+       /* background-image: url("../css/imagenes/cristal.png");*/
+        background-position-x: left;
         background-attachment: scroll;
-        background-origin: border-box;
+        background-repeat: no-repeat;
+       
     }
 
     hr{
@@ -32,6 +33,10 @@
          font-optical-sizing:auto ;
          font-style: italic;
      }
+     .intro_yeri{
+      position: static;
+      
+     }
 
      li{
         color:#4b5d67 ;
@@ -51,15 +56,19 @@
         font-size: 50px;
         
      }
+     
 
-     img.social{
-        
-        
-        height: 100px;
-        width: 100px;
-       
-
-     }
+         .enlace_redes:hover img.social{
+            background-color: #4b5d67;
+            display: inherit;
+            
+            
+         }
+     
+    .social{
+      height: 100px;
+      width: 100px;
+    }
 
      /*********para la pagina cv***********/
 
