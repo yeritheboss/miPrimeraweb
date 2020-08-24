@@ -5,8 +5,15 @@
         background-position-x: left;
         background-attachment: scroll;
         background-repeat: no-repeat;
-       
-    }
+         margin: 0;
+          padding: 0;
+          border: 0;
+          font: inherit;
+          vertical-align: baseline;
+          -webkit-text-size-adjust: none;
+          font-size: 100%;
+         }
+    
 
     hr{
          border-style: none;
@@ -38,6 +45,25 @@
       
      }
 
+     .cv{
+      border: black;
+      border-block-color: black;
+      margin: 0;
+      padding: 0;
+      
+
+      ;
+     
+   
+   }
+     .img_cv{
+        margin: 0;
+        height: 30px;
+        width: 30px; 
+        border: black;
+        border-block-color: black;
+        padding-top: 0;
+     }
      li{
         color:#4b5d67 ;
      }
@@ -70,6 +96,7 @@
       width: 100px;
     }
 
+
      /*********para la pagina cv***********/
 
      .cv{
@@ -82,4 +109,107 @@
         font-size: 50px;
 
     }
+
+#nav{
+   background:transparent;
+   position: absolute;
+   right: 1em;
+   top: 0;
+   display: block;
+   color: white;
+
+
+}
+
+#header{
+   display: none;
+    cursor: default;
+    height: 3.5em;
+    left: 0;
+    line-height: 3.5em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    
+}
+
+body.yeri #header{
+   background-color: transparent;
+   box-shadow: none;
+   position: absolute;
+   background: transparent;
+
+
+}
+#header h1{
+   height: inherit;
+			left: 1.25em;
+			line-height: inherit;
+			margin: 0;
+			position: absolute;
+			top: 0;
+}
+
+#header {
+   position: absolute;
+   
+  
+}
+#banner {
+   box-shadow: 0 0.125em 0.1em 0 rgba(0, 0, 0, 0.25);
+   min-height: calc(100vh - 44px);
+   background-position: center center;
+ 
+}
+
+#banner .content{
+   
+   
+   margin-top: 350px;
+   margin-left: 65px;
+   display: inline-block;
+   margin-right: 1%;
+   position: relative;
+   background-position-y: center;
+   max-width: 95%;
+   text-align: right;
+   vertical-align: middle;
+   z-index: 1;
+}
+
+.descripcion_imgpres{
+
+
+
+}
+
+.titulo_foto{
+
+   font-size: 20px;
+}
+
+
+
+
+#habilidades{
+
+
+   box-shadow: 0 0.125em 0 0 rgba(0, 0, 0, 0.25);
+   min-height: calc(100vh - 44px);
+   margin-top: 350px;
+   margin-left: 65px;
+
+
+
+
+
+}
+
+}
+
+
+
+
+
     
