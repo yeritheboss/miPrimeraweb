@@ -1,5 +1,5 @@
 
-    body{
+     html, body, div,span,h1,h2,h3,strong,p,p1,p2{
         background-color:#322f3d;
        /* background-image: url("../css/imagenes/cristal.png");*/
         background-position-x: left;
@@ -14,6 +14,16 @@
           font-size: 100%;
          }
     
+         
+
+         #logo img{
+          height:100px;
+          color: white;
+          float: left;
+               }
+
+     
+
 
     hr{
          border-style: none;
@@ -24,49 +34,44 @@
          
     }
 
+    #menu{
+
+      color: white;
+   } 
+    div{
+       display: inline;
+    }
+
     h1{
         
         color:#4b5d67 ;
      }
 
-     p,p1,p2{
+     p1,p2{
         color:#4b5d67 ;
         
     
      }
 
-     .descripcion_yeri{
-         color:#4b5d67;
-         font-optical-sizing:auto ;
-         font-style: italic;
-     }
-     .intro_yeri{
-      position: static;
-      
-     }
-
-     .cv{
-      border: black;
-      border-block-color: black;
-      margin: 0;
-      padding: 0;
-      
-
-      ;
      
-   
-   }
-     .img_cv{
-        margin: 0;
-        height: 30px;
-        width: 30px; 
-        border: black;
-        border-block-color: black;
-        padding-top: 0;
+     .titulo_foto{
+
+   color: white;
      }
+  
+     
      li{
-        color:#4b5d67 ;
+        color:white ;
+        float: right;
+        list-style: none;
+        padding:10px;
+
      }
+     a{
+        text-decoration: none;
+        color: white;
+     }
+
 
      td{
         color:#4b5d67 ;
@@ -76,25 +81,9 @@
         color:#4b5d67 ;
      }
    
-     .redes{
-        color:#4b5d67 ;
-        font-style: italic;
-        font-size: 50px;
-        
-     }
-     
 
-         .enlace_redes:hover img.social{
-            background-color: #4b5d67;
-            display: inherit;
-            
-            
-         }
-     
-    .social{
-      height: 100px;
-      width: 100px;
-    }
+
+    
 
 
      /*********para la pagina cv***********/
@@ -110,52 +99,45 @@
 
     }
 
-#nav{
-   background:transparent;
-   position: absolute;
-   right: 1em;
-   top: 0;
-   display: block;
-   color: white;
+    .img_cv{
+      margin: 0;
+      height: 30px;
+      width: 30px; 
+      border: black;
+      border-block-color: black;
+      padding-top: 0;
+   }
 
 
-}
-
-#header{
-   display: none;
-    cursor: default;
-    height: 3.5em;
-    left: 0;
-    line-height: 3.5em;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-    
-}
-
-body.yeri #header{
-   background-color: transparent;
-   box-shadow: none;
-   position: absolute;
-   background: transparent;
+    .encabezado_division{
+         padding-top: 0;
 
 
-}
-#header h1{
-   height: inherit;
-			left: 1.25em;
-			line-height: inherit;
-			margin: 0;
-			position: absolute;
-			top: 0;
-}
+    }
 
-#header {
-   position: absolute;
+   
+   
+    .cv{
+      border: black;
+      border-block-color: black;
+      margin: 0;
+      padding: 0;
+      
+
+      
+     
+   
+   }
+
+
+
+
+
+
+
    
   
-}
+
 #banner {
    box-shadow: 0 0.125em 0.1em 0 rgba(0, 0, 0, 0.25);
    min-height: calc(100vh - 44px);
@@ -177,16 +159,18 @@ body.yeri #header{
    vertical-align: middle;
    z-index: 1;
 }
-
-.descripcion_imgpres{
-
-
-
+#banner .content .img{
+   border-radius: 100%;
+   display: inline-block;
+   height: 30em;
+   vertical-align: middle;
+   width: 30em;
 }
 
 .titulo_foto{
 
    font-size: 20px;
+   color: white;
 }
 
 
@@ -205,8 +189,27 @@ body.yeri #header{
 
 
 }
-
+ /*para la zona de redes sociales*/
+ .redes{
+   color:#4b5d67 ;
+   font-style: italic;
+   font-size: 50px;
+   
 }
+
+
+    .enlace_redes:hover img.social{
+       background-color: #4b5d67;
+       display: inherit;
+       
+       
+    }
+
+.social{
+ height: 100px;
+ width: 100px;
+}
+
 
 
 
