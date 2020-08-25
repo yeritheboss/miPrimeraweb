@@ -1,6 +1,6 @@
 
      html, body, div,span,h1,h2,h3,strong,p,p1,p2{
-        background-color:#322f3d;
+        background-color:#1c1d26;
        /* background-image: url("../css/imagenes/cristal.png");*/
         background-position-x: left;
         background-attachment: scroll;
@@ -16,8 +16,9 @@
     
          
 
-         #logo img{
+         #logo {
           height:100px;
+          padding-left:20px ;
           color: white;
           float: left;
                }
@@ -76,6 +77,10 @@
         list-style: none;
         padding:10px;
 
+     }
+     .boton_rojo{
+        background-color:#e44c65;
+        box-shadow: none;
      }
      a{
         text-decoration: none;
