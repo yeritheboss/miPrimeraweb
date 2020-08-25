@@ -57,8 +57,18 @@
      .titulo_foto{
 
    color: white;
+
      }
-  
+     .titulo_intro{
+
+      font-size: 1.5em;
+     }
+     
+     .titulo_descri{
+        font-size: 1em;
+        color: white;
+         
+      }
      
      li{
         color:white ;
