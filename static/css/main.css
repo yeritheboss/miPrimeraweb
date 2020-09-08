@@ -151,28 +151,49 @@
    box-shadow: 0 0.125em 0.1em 0 rgba(0, 0, 0, 0.25);
    min-height: calc(100vh - 44px);
    background-position: center center;
+   /* border:solid white;*/
+   
  
 }
 
 #banner .content{
    
+   position: relative;
+   top: 400px;
+   left: 100px;
+  /* border:solid white;*/
    
-  margin-top: 350px;
    display: inline-block;
    margin-right: 1%;
-   position: relative;
    background-position: center center;
    max-width: 95%;
    text-align: right;
    vertical-align: middle;
    z-index: 1;
 }
+
+
+/*#banner .titulo_descri{
+   float: left;
+   
+}*/
+
+#banner .content .descripcion_content{
+
+display: inline-block;
+}
+
+
 #banner .content .img{
-   border-radius: 100%;
+   
+   /* border:solid white;*/
+   
+   background-position: center center;
+   object-position: center;
    display: inline-block;
-   height: 15em;
+   height: 200px;
    vertical-align: middle;
-   width: 15em;
+   width: 220px;
    
 }
 
