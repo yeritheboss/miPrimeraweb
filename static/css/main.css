@@ -144,12 +144,6 @@
    
    }
 
-
-
-
-
-
-
    
   
 
@@ -163,12 +157,11 @@
 #banner .content{
    
    
-   margin-top: 350px;
-   margin-left: 65px;
+  margin-top: 350px;
    display: inline-block;
    margin-right: 1%;
    position: relative;
-   background-position-y: center;
+   background-position: center center;
    max-width: 95%;
    text-align: right;
    vertical-align: middle;
@@ -180,6 +173,7 @@
    height: 15em;
    vertical-align: middle;
    width: 15em;
+   
 }
 
 .titulo_foto{
