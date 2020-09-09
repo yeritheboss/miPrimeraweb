@@ -198,7 +198,7 @@ display: inline-block;
 }
 
 .titulo_foto{
-
+display: inline-block;
    font-size: 20px;
    color: white;
 }
@@ -206,19 +206,80 @@ display: inline-block;
 
 
 
-#habilidades{
 
+#proyectos{
+   top: 50px;
+   position: relative;
+  
 
-   box-shadow: 0 0.125em 0 0 rgba(0, 0, 0, 0.25);
-   min-height: calc(100vh - 44px);
-   margin-top: 350px;
-   margin-left: 65px;
+   
+}
 
-
-
-
+#proyectos .primer_cuadro{
+   border: solid black;
+   box-shadow: inset;
+display: inline-block;
 
 }
+
+#proyectos  .descripcion_primera {
+   
+   display: inline-block;
+   
+   font-size: 20px;
+   color: white;
+   }
+   #proyectos .primer_cuadro .imagen_primer_cuad{
+      
+      display: inline;
+      vertical-align: middle;
+
+   }
+
+#proyectos .segundo_cuadro{
+   border: solid black;
+   display: inline-block;
+   
+   font-size: 20px;
+   vertical-align: middle;
+}
+#proyectos .segundo_cuadro .imagen_segundo_cuad{
+   
+   display: inline;
+   vertical-align: middle;
+
+}
+
+#proyectos .tercer_cuadro{
+   border: solid black;
+   display: inline-block;
+   
+   font-size: 20px;
+   vertical-align: middle;
+  
+   
+}
+#proyectos .tercer_cuadro .imagen_tercer_cuad{
+   
+   display: inline;
+   vertical-align: middle;
+   
+
+}
+
+#habilidades{
+
+   box-shadow: 0 0.125em 0 0 rgba(0, 0, 0, 0.25);
+      min-height: calc(100vh - 44px);
+      margin-top: 350px;
+      margin-left: 65px;
+      display: block;
+   
+   }
+
+
+
+
  /*para la zona de redes sociales*/
  .redes{
    color:#4b5d67 ;
