@@ -1,6 +1,7 @@
 
      html, body, div,span,h1,h2,h3,strong,p,p1,p2{
         background-color:#1c1d26;
+        
        /* background-image: url("../css/imagenes/cristal.png");*/
         background-position-x: left;
         background-attachment: scroll;
@@ -68,6 +69,8 @@
      .titulo_descri{
         font-size: 1em;
         color: white;
+        display: block;
+
          
       }
      
@@ -213,7 +216,37 @@ display: inline-block;
    font-size: 100px;
 }
 
+/*sobre mi*/
+ #about{
+   
+ box-shadow: 0 0.125em 0 0 rgba(0, 0, 0, 0.25);
+ min-height: calc(100vh - 44px);
+ 
+display: block;
 
+color: white;
+
+}
+#about .header{
+padding-top: 50px;
+font-size: 50px;
+
+}
+#about .intro_about{
+   padding-top: 50px;
+}
+#about .img_about{
+   position: relative;
+   display: block;
+   padding: 50px;
+}
+#about .descri_about{
+   
+   font: 30px sans-serif;
+
+}
+
+/*portfolio*/
 #proyectos{
   
    top: 100px;
