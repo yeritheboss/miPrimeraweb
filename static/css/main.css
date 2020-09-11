@@ -206,56 +206,79 @@ display: inline-block;
 
 
 
+.header_proyectos{
+
+   padding-top: 25px;
+   
+   font-size: 100px;
+}
+
 
 #proyectos{
-   top: 50px;
-   position: relative;
   
+   top: 100px;
+   position: relative;
+   font-size:50px;
 
    
 }
 
+
 #proyectos .primer_cuadro{
-   border: solid black;
+   
+   border: black;
    box-shadow: inset;
-display: inline-block;
+   display: inline-block;
+   vertical-align: middle;
+   height: 300px;
+   width: 300px;
+   padding-left: 20px;
 
 }
 
 #proyectos  .descripcion_primera {
    
-   display: inline-block;
+   display: block;
    
    font-size: 20px;
    color: white;
    }
    #proyectos .primer_cuadro .imagen_primer_cuad{
       
-      display: inline;
+      display: block;
       vertical-align: middle;
 
    }
 
 #proyectos .segundo_cuadro{
-   border: solid black;
+   
    display: inline-block;
    
    font-size: 20px;
    vertical-align: middle;
+   height: 300px;
+   width: 300px;
+   padding-left: 20px;
+
 }
 #proyectos .segundo_cuadro .imagen_segundo_cuad{
    
-   display: inline;
-   vertical-align: middle;
+   display: block;
+   box-shadow:inset
+  
+  
 
 }
 
 #proyectos .tercer_cuadro{
-   border: solid black;
+  
    display: inline-block;
-   
+   height: 300px;
+   width: 300px;
+
    font-size: 20px;
    vertical-align: middle;
+   padding-left: 20px;
   
    
 }
@@ -263,7 +286,7 @@ display: inline-block;
    
    display: inline;
    vertical-align: middle;
-   
+   box-shadow:inset;
 
 }
 
