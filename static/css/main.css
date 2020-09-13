@@ -15,7 +15,12 @@
           font-size: 100%;
          }
     
-         
+         #header{
+            position: relative;
+            display: block;
+
+            
+         }
 
          #logo {
           height:100px;
@@ -24,7 +29,12 @@
           float: left;
                }
 
-     
+     #menu{
+       position:abosolute;
+       display:inline;
+
+
+     }
 
 
     hr{
@@ -36,10 +46,7 @@
          
     }
 
-    #menu{
-
-      color: white;
-   } 
+    
     div{
        display: inline;
     }
@@ -154,7 +161,7 @@
    box-shadow: 0 0.125em 0.1em 0 rgba(0, 0, 0, 0.25);
    min-height: calc(100vh - 44px);
    background-position: center center;
-   /* border:solid white;*/
+   
    
  
 }
@@ -162,11 +169,11 @@
 #banner .content{
    
    position: relative;
-   top: 400px;
-   left: 100px;
+   top: 300px;
+   
   /* border:solid white;*/
    
-   display: inline-block;
+   display: block;
    margin-right: 1%;
    background-position: center center;
    max-width: 95%;
@@ -297,7 +304,8 @@ font-size: 50px;
 #proyectos .segundo_cuadro .imagen_segundo_cuad{
    
    display: block;
-   box-shadow:inset
+   box-shadow:inset;
+   vertical-align: middle;
   
   
 
