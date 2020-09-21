@@ -3,40 +3,45 @@
         background-color:#1c1d26;
         
        /* background-image: url("../css/imagenes/cristal.png");*/
-        background-position-x: left;
         background-attachment: scroll;
         background-repeat: no-repeat;
          margin: 0;
-          padding: 0;
-          border: 0;
-          font: inherit;
-          vertical-align: baseline;
-          -webkit-text-size-adjust: none;
-          font-size: 100%;
+         padding: 0;
+         border: 0;
+         font: inherit;
+         vertical-align: baseline;
+         -webkit-text-size-adjust:auto;
+         font-size: 100%;
+         text-align: center;
          }
     
-         #header{
-            position: relative;
-            display: block;
-
-            
-         }
-
-         #logo {
-          height:100px;
-          padding-left:20px ;
-          color: white;
-          float: left;
-               }
+        
+      
 
      #menu{
-       position:abosolute;
-       display:inline;
-
+      height:350px;
+       display:block;
+       
 
      }
 
-
+      #menu .logo{
+         height:100px;
+         padding-left:20px ;
+         color: white;
+         float: left;
+              }
+      
+      #menu  li{
+         color:white ;
+         float: right;
+         list-style: none;
+         padding:10px;
+      }
+      #menu .boton_rojo{
+         background-color:#e44c65;
+         box-shadow: none;
+      }
     hr{
          border-style: none;
          border-top-style:dotted;
@@ -45,12 +50,8 @@
          border-width: 5px;
          
     }
-
-    
-    div{
-       display: inline;
-    }
-
+  
+  
     h1{
         
         color:#4b5d67 ;
@@ -81,17 +82,9 @@
          
       }
      
-     li{
-        color:white ;
-        float: right;
-        list-style: none;
-        padding:10px;
-
-     }
-     .boton_rojo{
-        background-color:#e44c65;
-        box-shadow: none;
-     }
+    
+     
+     
      a{
         text-decoration: none;
         color: white;
@@ -158,23 +151,53 @@
   
 
 #banner {
-   box-shadow: 0 0.125em 0.1em 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0.125em 0.1em 0 rgba(0, 0, 0, 0.25);
    min-height: calc(100vh - 44px);
    background-position: center center;
-   
-   
+   position: relative;
  
+   
 }
 
+
+
+#banner .content{
+ 
+ position: relative;
+ display: inline-block;
+text-align: right;
+
+}
+
+#banner .descripcion_content{
+
+display: inline-block;
+text-align: center;
+position: relative;
+width: 45%;
+-webkit-text-fill-color: white;
+
+
+}
+#banner .img{
+   position: relative;
+   display: inline-block;
+   vertical-align: middle;
+}
+/*
 #banner .content{
    
+  
+  
+   width: 20%;
    position: relative;
-   top: 300px;
-   
-   width: 500px;
-   
-  /* border:solid white;*/
-   
+   text-align: right;
+  
+
+ 
+  
+
+/*
    display: block;
    margin-right: 1%;
    background-position: center center;
@@ -182,24 +205,16 @@
    text-align: right;
    vertical-align: middle;
    z-index: 1;
-}
+                       }*/
+
+ 
 
 
-/*#banner .titulo_descri{
-   float: left;
-   
-}*/
-
-#banner .content .descripcion_content{
-
-display: inline-block;
-}
 
 
-#banner .content .img{
-   
+
    /* border:solid white;*/
-   
+  /* 
    background-position: center center;
    object-position: center;
    display: inline-block;
@@ -215,9 +230,9 @@ display: inline-block;
    color: white;
 }
 
+*/
 
-
-
+}
 .header_proyectos{
 
    padding-top: 25px;
