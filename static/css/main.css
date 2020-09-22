@@ -1,189 +1,207 @@
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+strong,
+p,
+p1,
+p2 {
+   background-color: #1c1d26;
 
-     html, body, div,span,h1,h2,h3,strong,p,p1,p2{
-        background-color:#1c1d26;
-        
-       /* background-image: url("../css/imagenes/cristal.png");*/
-        background-attachment: scroll;
-        background-repeat: no-repeat;
-         margin: 0;
-         padding: 0;
-         border: 0;
-         font: inherit;
-         vertical-align: baseline;
-         -webkit-text-size-adjust:auto;
-         font-size: 100%;
-         text-align: center;
-         }
-    
-        
-      
+   /* background-image: url("../css/imagenes/cristal.png");*/
+   background-attachment: scroll;
+   background-repeat: no-repeat;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font: inherit;
+   vertical-align: baseline;
+   -webkit-text-size-adjust: auto;
+   font-size: 100%;
+   text-align: center;
+   
+}
 
-     #menu{
-      height:350px;
-       display:block;
-       
 
-     }
 
-      #menu .logo{
-         height:100px;
-         padding-left:20px ;
-         color: white;
-         float: left;
-              }
-      
-      #menu  li{
-         color:white ;
-         float: right;
-         list-style: none;
-         padding:10px;
-      }
-      #menu .boton_rojo{
-         background-color:#e44c65;
-         box-shadow: none;
-      }
-    hr{
-         border-style: none;
-         border-top-style:dotted;
-         border-color:#59405c;
-         width: 5%;
-         border-width: 5px;
-         
-    }
-  
-  
-    h1{
-        
-        color:#4b5d67 ;
-     }
 
-     p1,p2{
-        color:#4b5d67 ;
-        
-    
-     }
+#menu {
+   height: 350px;
+   display: block;
 
-     
-     .titulo_foto{
+
+}
+
+#menu .logo {
+   height: 100px;
+   padding-left: 20px;
+   color: white;
+   float: left;
+}
+
+#menu li {
+   color: white;
+   float: right; 
+   list-style: none;
+   padding: 10px;
+}
+
+#menu .boton_rojo {
+   background-color: #e44c65;
+   box-shadow: none;
+}
+
+hr {
+   border-style: none;
+   border-top-style: dotted;
+   border-color: #59405c;
+   width: 5%;
+   border-width: 5px;
+
+}
+
+
+h1 {
+
+   color: #4b5d67;
+}
+
+p1,
+p2 {
+   color: #4b5d67;
+
+
+}
+
+
+.titulo_foto {
 
    color: white;
 
-     }
-     .titulo_intro{
+}
 
-      font-size: 1.5em;
-     }
-     
-     .titulo_descri{
-        font-size: 1em;
-        color: white;
-        display: block;
+.titulo_intro {
 
-         
-      }
-     
-    
-     
-     
-     a{
-        text-decoration: none;
-        color: white;
-     }
+   font-size: 1.5em;
+}
+
+.titulo_descri {
+   font-size: 1em;
+   color: white;
+   display: block;
 
 
-     td{
-        color:#4b5d67 ;
-
-     }
-     th{
-        color:#4b5d67 ;
-     }
-   
+}
 
 
-    
 
 
-     /*********para la pagina cv***********/
-
-     .cv{
-        height:  50%;
-        width: 90%;
-
-     }
-    .intro_cv{
-        font-style: italic;
-        font-size: 50px;
-
-    }
-
-    .img_cv{
-      margin: 0;
-      height: 30px;
-      width: 30px; 
-      border: black;
-      border-block-color: black;
-      padding-top: 0;
-   }
+a {
+   text-decoration: none;
+   color: white;
+}
 
 
-    .encabezado_division{
-         padding-top: 0;
+td {
+   color: #4b5d67;
+
+}
+
+th {
+   color: #4b5d67;
+}
 
 
-    }
 
-   
-   
-    .cv{
-      border: black;
-      border-block-color: black;
-      margin: 0;
-      padding: 0;
-      
 
-      
-     
-   
-   }
 
-   
-  
+
+/*********para la pagina cv***********/
+
+.cv {
+   height: 50%;
+   width: 90%;
+
+}
+
+.intro_cv {
+   font-style: italic;
+   font-size: 50px;
+
+}
+
+.img_cv {
+   margin: 0;
+   height: 30px;
+   width: 30px;
+   border: black;
+   border-block-color: black;
+   padding-top: 0;
+}
+
+
+.encabezado_division {
+   padding-top: 0;
+
+
+}
+
+
+
+.cv {
+   border: black;
+   border-block-color: black;
+   margin: 0;
+   padding: 0;
+
+
+
+
+
+}
+
+
+
 
 #banner {
-  box-shadow: 0 0.125em 0.1em 0 rgba(0, 0, 0, 0.25);
+   box-shadow: 0 0.125em 0.1em 0 rgba(0, 0, 0, 0.25);
    min-height: calc(100vh - 44px);
    background-position: center center;
    position: relative;
- 
-   
-}
-
-
-
-#banner .content{
- 
- position: relative;
- display: inline-block;
-text-align: right;
-
-}
-
-#banner .descripcion_content{
-
-display: inline-block;
-text-align: center;
-position: relative;
-width: 45%;
--webkit-text-fill-color: white;
 
 
 }
-#banner .img{
+
+
+
+#banner .content {
+
+   position: relative;
+   display: inline-block;
+   text-align: right;
+
+}
+
+#banner .descripcion_content {
+
+   display: inline-block;
+   text-align: center;
+   position: relative;
+   width: 200px;
+   -webkit-text-fill-color: white;
+
+
+}
+
+#banner .img {
    position: relative;
    display: inline-block;
    vertical-align: middle;
 }
+
 /*
 #banner .content{
    
@@ -207,14 +225,14 @@ width: 45%;
    z-index: 1;
                        }*/
 
- 
 
 
 
 
 
-   /* border:solid white;*/
-  /* 
+
+/* border:solid white;*/
+/* 
    background-position: center center;
    object-position: center;
    display: inline-block;
@@ -232,57 +250,62 @@ display: inline-block;
 
 */
 
-}
-.header_proyectos{
+
+
+.header_proyectos {
 
    padding-top: 25px;
-   
+
    font-size: 100px;
 }
 
 /*sobre mi*/
- #about{
-   
- box-shadow: 0 0.125em 0 0 rgba(0, 0, 0, 0.25);
- min-height: calc(100vh - 44px);
- 
-display: block;
+#about {
 
-color: white;
+   box-shadow: 0 0.125em 0 0 rgba(0, 0, 0, 0.25);
+   min-height: calc(100vh - 44px);
 
-}
-#about .header{
-padding-top: 50px;
-font-size: 50px;
+   display: block;
+
+   color: white;
 
 }
-#about .intro_about{
+
+#about .header {
+   padding-top: 50px;
+   font-size: 50px;
+
+}
+
+#about .intro_about {
    padding-top: 50px;
 }
-#about .img_about{
+
+#about .img_about {
    position: relative;
    display: block;
    padding: 50px;
 }
-#about .descri_about{
-   
+
+#about .descri_about {
+
    font: 30px sans-serif;
 
 }
 
 /*portfolio*/
-#proyectos{
-  
+#proyectos {
+
    top: 100px;
    position: relative;
-   font-size:50px;
+   font-size: 50px;
 
-   
+
 }
 
 
-#proyectos .primer_cuadro{
-   
+#proyectos .primer_cuadro {
+
    border: black;
    box-shadow: inset;
    display: inline-block;
@@ -293,43 +316,45 @@ font-size: 50px;
 
 }
 
-#proyectos  .descripcion_primera {
-   
+#proyectos .descripcion_primera {
+
    display: block;
-   
+
    font-size: 20px;
    color: white;
-   }
-   #proyectos .primer_cuadro .imagen_primer_cuad{
-      
-      display: block;
-      vertical-align: middle;
-
-   }
-
-#proyectos .segundo_cuadro{
-   
-   display: inline-block;
-   
-   font-size: 20px;
-   vertical-align: middle;
-   height: 300px;
-   width: 300px;
-   padding-left: 20px;
-
 }
-#proyectos .segundo_cuadro .imagen_segundo_cuad{
-   
+
+#proyectos .primer_cuadro .imagen_primer_cuad {
+
    display: block;
-   box-shadow:inset;
    vertical-align: middle;
-  
-  
 
 }
 
-#proyectos .tercer_cuadro{
-  
+#proyectos .segundo_cuadro {
+
+   display: inline-block;
+
+   font-size: 20px;
+   vertical-align: middle;
+   height: 300px;
+   width: 300px;
+   padding-left: 20px;
+
+}
+
+#proyectos .segundo_cuadro .imagen_segundo_cuad {
+
+   display: block;
+   box-shadow: inset;
+   vertical-align: middle;
+
+
+
+}
+
+#proyectos .tercer_cuadro {
+
    display: inline-block;
    height: 300px;
    width: 300px;
@@ -337,54 +362,48 @@ font-size: 50px;
    font-size: 20px;
    vertical-align: middle;
    padding-left: 20px;
-  
-   
+
+
 }
-#proyectos .tercer_cuadro .imagen_tercer_cuad{
-   
+
+#proyectos .tercer_cuadro .imagen_tercer_cuad {
+
    display: inline;
    vertical-align: middle;
-   box-shadow:inset;
+   box-shadow: inset;
 
 }
 
-#habilidades{
+#habilidades {
 
    box-shadow: 0 0.125em 0 0 rgba(0, 0, 0, 0.25);
-      min-height: calc(100vh - 44px);
-      margin-top: 350px;
-      margin-left: 65px;
-      display: block;
-   
-   }
+   min-height: calc(100vh - 44px);
+   margin-top: 350px;
+   margin-left: 65px;
+   display: block;
+
+}
 
 
 
 
- /*para la zona de redes sociales*/
- .redes{
-   color:#4b5d67 ;
+/*para la zona de redes sociales*/
+.redes {
+   color: #4b5d67;
    font-style: italic;
    font-size: 50px;
-   
+
 }
 
 
-    .enlace_redes:hover img.social{
-       background-color: #4b5d67;
-       display: inherit;
-       
-       
-    }
+.enlace_redes:hover img.social {
+   background-color: #4b5d67;
+   display: inherit;
 
-.social{
- height: 100px;
- width: 100px;
+
 }
 
-
-
-
-
-
-    
+.social {
+   height: 100px;
+   width: 100px;
+}
