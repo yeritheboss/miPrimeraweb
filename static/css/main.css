@@ -22,7 +22,7 @@ p2 {
    -webkit-text-size-adjust: auto;
    font-size: 100%;
    text-align: center;
-   
+   font-family: "Trebuchet MS", Helvetica, sans-serif
 }
 
 
@@ -36,7 +36,7 @@ p2 {
 }
 
 #menu .logo {
-   height: 100px;
+   height: 100px; 
    padding-left: 20px;
    color: white;
    float: left;
@@ -65,16 +65,13 @@ hr {
 
 
 h1 {
+   padding-top: 25px;
 
+   font-size: 100px;
    color: #4b5d67;
 }
 
-p1,
-p2 {
-   color: #4b5d67;
 
-
-}
 
 
 .titulo_foto {
@@ -167,8 +164,8 @@ th {
 
 
 #banner {
-   box-shadow: 0 0.125em 0.1em 0 rgba(0, 0, 0, 0.25);
-   min-height: calc(100vh - 44px);
+  
+   min-height: 500px;
    background-position: center center;
    position: relative;
 
@@ -200,96 +197,66 @@ th {
    position: relative;
    display: inline-block;
    vertical-align: middle;
-}
-
-/*
-#banner .content{
-   
-  
-  
-   width: 20%;
-   position: relative;
-   text-align: right;
-  
-
- 
-  
-
-/*
-   display: block;
-   margin-right: 1%;
-   background-position: center center;
-   max-width: 95%;
-   text-align: right;
-   vertical-align: middle;
-   z-index: 1;
-                       }*/
-
-
-
-
-
-
-
-/* border:solid white;*/
-/* 
-   background-position: center center;
-   object-position: center;
-   display: inline-block;
-   height: 200px;
-   vertical-align: middle;
-   width: 220px;
    
 }
 
-.titulo_foto{
-display: inline-block;
-   font-size: 20px;
-   color: white;
-}
-
-*/
 
 
 
-.header_proyectos {
-
-   padding-top: 25px;
-
-   font-size: 100px;
-}
 
 /*sobre mi*/
 #about {
 
-   box-shadow: 0 0.125em 0 0 rgba(0, 0, 0, 0.25);
+  /*  box-shadow: 0 0.125em 0 0 rgba(0, 0, 0, 0.25);*/
    min-height: calc(100vh - 44px);
-
-   display: block;
-
    color: white;
+   display: block;
+   position: relative;
 
 }
 
+#about .intro{
+
+   background-color: black;
+   size: 50%;
+   position:relative;
+   width: 900px;
+   height: 850px;
+   box-shadow: #4b5d67;
+}
 #about .header {
+  
    padding-top: 50px;
    font-size: 50px;
 
 }
 
 #about .intro_about {
+   background-color: black;
    padding-top: 50px;
 }
 
 #about .img_about {
-   position: relative;
+   background-color: black;
+   padding-top: 50px;
    display: block;
-   padding: 50px;
+   margin: 0 auto;
+   width: 600px;
 }
 
-#about .descri_about {
+#about .box_descri{
+   background-color: black;
+   display: block;
+   text-align: center;
+   font-size: 1rem;
+   font-weight: normal;
+   color:white;
+   margin: 0 auto;
+   padding-top: 50px;
+   width: 70%;
 
-   font: 30px sans-serif;
+  
+  
 
 }
 
@@ -376,7 +343,7 @@ display: inline-block;
 
 #habilidades {
 
-   box-shadow: 0 0.125em 0 0 rgba(0, 0, 0, 0.25);
+  
    min-height: calc(100vh - 44px);
    margin-top: 350px;
    margin-left: 65px;
