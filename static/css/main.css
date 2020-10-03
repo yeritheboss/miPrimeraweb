@@ -10,7 +10,7 @@ p,
 p1,
 p2 {
    background-color: #1c1d26;
-
+ 
    /* background-image: url("../css/imagenes/cristal.png");*/
    background-attachment: scroll;
    background-repeat: no-repeat;
@@ -23,6 +23,7 @@ p2 {
    font-size: 100%;
    text-align: center;
    font-family: "Trebuchet MS", Helvetica, sans-serif
+
 }
 
 
@@ -167,18 +168,19 @@ th {
   
    min-height: 500px;
    background-position: center center;
-   position: relative;
+   
 
-
+   margin: 0 auto;
 }
 
 
 
 #banner .content {
-
+   
    position: relative;
    display: inline-block;
    text-align: right;
+   margin: 0 auto;
 
 }
 
@@ -186,7 +188,6 @@ th {
 
    display: inline-block;
    text-align: center;
-   position: relative;
    width: 200px;
    -webkit-text-fill-color: white;
 
@@ -216,13 +217,15 @@ th {
 }
 
 #about .intro{
-
+  
    background-color:black;
    size: 50%;
    position:relative;
-   width: 900px;
-   height: 850px;
-   box-shadow: #4b5d67;
+   width: 56.25em;
+   height: 53.125em;
+   box-shadow: 10px 10px 10px 10px black;
+    
+   
 }
 #about .header {
   
@@ -248,6 +251,7 @@ th {
    background-color: black;
    display: block;
    text-align: center;
+   text-size-adjust: ;
    font-size: 1rem;
    font-weight: normal;
    color:white;
