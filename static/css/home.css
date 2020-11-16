@@ -1,0 +1,57 @@
+
+
+
+html, body,section {
+    background-color:#1c1d26;
+    font-family: "Trebuchet MS", Helvetica, sans-serif
+}
+
+.logo {
+    
+    height: 100px; 
+    padding-left: 20px;
+    color: white;
+    float: left;
+}
+
+#title{
+    background-color:#1c1d26;
+
+}
+
+#banner {
+  
+  
+    background-position: center center;
+    
+ 
+    margin: 0 auto;
+ }
+
+#banner .content {
+    
+    position: relative;
+    display: inline-block;
+    text-align: right;
+    margin: 0 auto;
+ 
+ }
+ 
+ #banner .descripcion_content {
+ 
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    -webkit-text-fill-color: white;
+ 
+ 
+ }
+ 
+ #banner .img {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    
+ }
+ 
+ 

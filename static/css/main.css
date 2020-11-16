@@ -27,11 +27,19 @@ p2 {
 }
 
 
+.yeri{
 
+   width: 100%;
+
+
+}
 
 #menu {
    height: 350px;
-   display: block;
+   display: inline-block;
+   width:  100%;
+   margin: auto;
+   
 
 
 }
@@ -166,7 +174,7 @@ th {
 
 #banner {
   
-   min-height: 500px;
+   min-height: 31.25em;
    background-position: center center;
    
 
@@ -279,8 +287,8 @@ th {
 
    border: black;
    box-shadow: inset;
-   display: inline-block;
-   vertical-align: middle;
+   display: block;
+ 
    height: 300px;
    width: 300px;
    padding-left: 20px;
@@ -289,15 +297,16 @@ th {
 
 #proyectos .descripcion_primera {
 
-   display: block;
-
-   font-size: 20px;
+   display: inline-block;
+   vertical-align: middle;
+   font-size: 0.5em;
    color: white;
+   width: 100%;
 }
 
 #proyectos .primer_cuadro .imagen_primer_cuad {
-
-   display: block;
+   text-align: center;
+   display: inline-block;
    vertical-align: middle;
 
 }
