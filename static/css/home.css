@@ -28,14 +28,11 @@ html, body,section {
     margin: 0 auto;
  }
 
-#banner .content {
-    
-    position: relative;
-    display: inline-block;
-    text-align: right;
-    margin: 0 auto;
- 
- }
+#banner .container{
+    padding-top: 15vh;
+
+
+}
  
  #banner .descripcion_content {
  
