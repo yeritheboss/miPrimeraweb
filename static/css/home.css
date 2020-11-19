@@ -2,6 +2,11 @@
 
 
 html, body,section {
+    background-attachment: scroll;
+   background-repeat: no-repeat;
+   margin: 0;
+   padding: 0;
+   border: 0;
     background-color:#1c1d26;
     font-family: "Trebuchet MS", Helvetica, sans-serif
 }
@@ -28,6 +33,9 @@ html, body,section {
     margin: 0 auto;
  }
 
+
+
+
 #banner .container{
     padding-top: 15vh;
 
@@ -39,15 +47,22 @@ html, body,section {
     display: inline-block;
     text-align: center;
     width: 200px;
-    -webkit-text-fill-color: white;
+    color: white;
+   font-weight: 700;
+  }
+
+  #banner .descripcion_content  span{
  
- 
+   
+    font-size: 30px;
+    color: #e44c65;
+    line-height: 1.5;
  }
- 
  #banner .img {
     position: relative;
     display: inline-block;
     vertical-align: middle;
+    padding: 5px;
     
  }
  
