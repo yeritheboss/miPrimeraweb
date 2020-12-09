@@ -3,67 +3,113 @@
 
 html, body,section {
     background-attachment: scroll;
-   background-repeat: no-repeat;
+    background-color: black;
    margin: 0;
    padding: 0;
    border: 0;
-    background-color:#1c1d26;
+    /* background-color:#1c1d26; */
+  
+    
     font-family: "Trebuchet MS", Helvetica, sans-serif
+}
+#banner {
+    
+    padding-bottom:200px ;    
+    height: 80vh;
+    min-height: 100vh;
+   }
+
+
+ .max-with{
+     margin: auto 0 auto 40px;
+ }  
+/* navegacion */
+#title{
+    /* background-color:#1c1d26; */
+  
+
+}
+.navbar.navbar-expand-lg.navbar-dark{
+    padding-left:20px;
 }
 
 .logo {
     
     height: 100px; 
-    padding-left: 20px;
+    padding-left: 5px;
     color: white;
     float: left;
-}
-
-#title{
-    background-color:#1c1d26;
-
-}
-
-#banner {
-  
-  
-    background-position: center center;
     
- 
-    margin: 0 auto;
- }
+}
+
+
+.nav-item{
+
+padding: 20px;
+font-weight: 700;
+}
+
+
+/* presentacion */
 
 
 
+#banner .container-fluid{
+    padding: 3% 15%;
+}
 
-#banner .container{
-    padding-top: 15vh;
+
+#banner .home-content{
+    display: relative;
+    background-image: url(imagenes/yo3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #ffffff;
+    min-height: 500px;
 
 
 }
+
+
  
- #banner .descripcion_content {
- 
-    display: inline-block;
-    text-align: center;
-    width: 200px;
-    color: white;
-   font-weight: 700;
+ #banner .descripcion_content p2  {
+     display: inline-block;
+     margin: 50px 20px;
+     padding-top: 250px;
+     padding-left: 50px;
+     text-align: center;
+     color: white;
+     font-size: 50px;
+     font-weight: 700;
   }
 
   #banner .descripcion_content  span{
  
    
-    font-size: 30px;
+    font-size: 70px;
     color: #e44c65;
     line-height: 1.5;
  }
- #banner .img {
-    position: relative;
-    display: inline-block;
-    vertical-align: middle;
-    padding: 5px;
-    
+ 
+
+ #body{
+
+margin: 0 auto;
+
+
+
+
+
+
  }
+
+ #body .titulo{
+    font-size: 100px;
+    color: white;
+    font-weight: 700;
+    padding-bottom: 20px;
+ }
+
  
  

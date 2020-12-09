@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+ 
+    
+  
+}
+
+.max-width{
+max-width: 1300px;
+padding: 0 80px;
+margin: auto;
+}
+
+/*estilo de la barra*/
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo img {
+  /*imagen*/
+  height: 100px; 
+}
+
+.navbar .menu li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.navbar .menu li a{
+    color:white ;
+    font-size: 18px;
+    font-weight:500 ;
+    margin-left: 25px;
+}
+
+
+
+.home{
+
+    display: flex;
+    background: url(imagenes/yo3.jpeg) no-repeat center;
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+    
+}
+
+
+.home .max-width{
+    margin: auto 0 ;
+
+}
+
+.home .home-content .texto1{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+
+.home .home-content .texto2{
+
+font-size: 27px;
+}
