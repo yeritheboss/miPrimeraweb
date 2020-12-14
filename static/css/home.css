@@ -26,11 +26,7 @@ html, body,section {
 
 
 /* navegacion */
-#title{
-    /* background-color:#1c1d26; */
-  
 
-}
 .navbar.navbar-expand-lg.navbar-dark{
     padding-left:20px;
 }
@@ -91,8 +87,19 @@ font-weight: 700;
     color: #e44c65;
     line-height: 1.5;
  }
- 
 
+ @media (max-width:1000px){
+     
+
+    #banner .descripcion_content  p2{
+       margin: 0;
+        padding-top: 0;
+       padding-left: 0;
+    
+    }
+
+
+}
 
  
 /*seccion de about*/
@@ -136,7 +143,6 @@ font-weight: 700;
  } 
 
  
-
 
  
 
