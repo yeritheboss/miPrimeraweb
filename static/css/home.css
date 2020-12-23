@@ -3,7 +3,7 @@
 
 html, body,section {
     background-attachment: scroll;
-    background-color: black;
+    background-color:black;
    margin: 0;
    padding: 0;
    border: 0;
@@ -29,10 +29,15 @@ html, body,section {
 
 .navbar.navbar-expand-lg.navbar-dark{
     padding-left:20px;
+    background-color:transparent;
 }
+
+
+
 
 .logo {
     
+    width: 105px;
     height: 100px; 
     padding-left: 5px;
     color: white;
@@ -68,6 +73,8 @@ font-weight: 700;
 }
 
 
+
+
  
  #banner .descripcion_content p2  {
      display: inline-block;
@@ -89,7 +96,19 @@ font-weight: 700;
  }
 
  @media (max-width:700px){
-     
+
+    .logo {
+    
+       
+        color: white;
+        float: left;
+        
+    }
+
+    .home-content{
+        background-size: 700px;
+    background-image: url(imagenes/yo3.jpeg);
+    }
 
     #banner .descripcion_content  p2{
         margin: 0;
@@ -97,7 +116,7 @@ font-weight: 700;
        padding-left: 0;
     
     }
-
+ 
 
 }
 
