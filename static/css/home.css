@@ -106,13 +106,14 @@ font-weight: 700;
     }
 
     .home-content{
-        background-size: 700px;
+    background-size: cover;
     background-image: url(imagenes/yo3.jpeg);
+    
     }
 
     #banner .descripcion_content  p2{
         margin: 0;
-        padding-top: 20px;
+        padding-top: 60px;
        padding-left: 0;
     
     }
