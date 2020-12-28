@@ -7,6 +7,8 @@ html, body,section {
    margin: 0;
    padding: 0;
    border: 0;
+   box-sizing: border-box;
+   text-decoration: none;
     /* background-color:#1c1d26; */
     
     font-family: "Trebuchet MS", Helvetica, sans-serif
@@ -17,6 +19,59 @@ html, body,section {
     
    
 }
+.max-width{
+    width:100%;
+    
+  
+}
+
+/*barra navegadora*/
+
+
+.navbar{
+    position:fixed;
+     padding: 15px 0;
+    background-color:black;
+    
+}
+.logo {
+    
+    width: 105px;
+    height: 100px; 
+    padding-left: 5px;
+   
+     
+}
+.menu ul{
+    padding-left: 70px; 
+}
+.navbar .max-width{
+    
+    display: flex;
+    align-items: center;   
+    justify-content: space-between;
+
+        }
+ .navbar .menu li{
+            padding-left: 70px;
+            display: inline-block;
+            list-style-type: none;
+            
+            
+            }        
+.navbar .menu  li a{
+
+    color:white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif
+}
+
+
+
+
+
+
+
+
 #banner {
     
     padding-bottom:200px ;    
@@ -26,7 +81,7 @@ html, body,section {
 
 
 /* navegacion */
-
+/*
 .navbar.navbar-expand-lg.navbar-dark{
     padding-left:20px;
     background-color:transparent;
@@ -35,15 +90,7 @@ html, body,section {
 
 
 
-.logo {
-    
-    width: 105px;
-    height: 100px; 
-    padding-left: 5px;
-    color: white;
-    float: left;
-    
-}
+
 
 
 .nav-item{
@@ -52,7 +99,7 @@ padding: 20px;
 font-weight: 700;
 }
 
-
+*/
 /* presentacion */
 
 
