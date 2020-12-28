@@ -7,7 +7,7 @@ html, body,section {
    margin: 0;
    padding: 0;
    border: 0;
-   box-sizing: border-box;
+   
    text-decoration: none;
     /* background-color:#1c1d26; */
     
@@ -31,6 +31,7 @@ html, body,section {
 .navbar{
     position:fixed;
      padding: 15px 0;
+     width: 100%;
     background-color:black;
     
 }
@@ -142,12 +143,14 @@ font-weight: 700;
     line-height: 1.5;
  }
 
- @media (max-width:700px) and (max-height: 850px){
+ @media (max-width:750px) and (max-height: 850px){
 
+    .navbar{
+        width: 100%;
+    }
     .logo {
     
-       
-        color: white;
+         color: white;
         float: left;
         
     }
