@@ -15,7 +15,7 @@ html, body,section {
 }
 
 .container-fluid{
-   min-width: 500px;
+   min-width: 360px;
     
    
 }
@@ -178,7 +178,7 @@ font-weight: 700;
   
   
     min-height: 100vh;
-    min-width: 500px;
+   
     background-color: white;
     padding: 100px 0;
    }
@@ -217,7 +217,6 @@ font-weight: 700;
  
  #contacto{
     min-height: 100vh;
-    min-width: 500px;
     padding: 100px 0;
  }
 
