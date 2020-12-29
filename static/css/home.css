@@ -161,6 +161,14 @@ font-weight: 700;
         display: block;
         z-index:999;
     }
+
+    /*para poner la x cuando se abre el menu*/
+.menu-btn i.active:before{
+   content: "\f00d" ;
+
+}
+
+/* el menos 100% hace que no se vea siempre*/
     .navbar .menu{
 
         position: fixed;
@@ -176,7 +184,7 @@ font-weight: 700;
         z-index:999;
        
     }
-
+        /*activado*/
     .navbar .menu.active{
     
     left: 0;
