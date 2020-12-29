@@ -78,7 +78,7 @@ html, body,section {
 .menu-btn{
 
     color: white;
-    font-size:23px;
+    font-size:32px;
     cursor: pointer;
     display:none;
 }
@@ -154,7 +154,45 @@ font-weight: 700;
     line-height: 1.5;
  }
 
- @media (max-width:640px){
+ @media (max-width:660px){
+    .menu-btn{
+        display: none;
+        z-index:999;
+    }
+    .navbar .menu{
+
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: 0px;
+        top: 0px;
+        background: #111;    
+        text-align: center;
+        padding-top: 80px;
+        margin: 0 auto;
+        padding-left: 0;
+        z-index:999;
+       
+    }
+    .navbar .menu.active{
+    
+        left: 0;
+        }
+    
+        .navbar .menu li{
+            display: block;
+            padding-left: 0;
+        }
+    
+        .navbar .menu li a{
+    
+            display: inline-block;
+            margin: 20px 0;
+            font-size:25px;
+        }
+}
+
+ @media (max-width:440px) and (max-height:640px){
 
     /*creacion de la barra del menu*/
     .menu-btn{
@@ -168,7 +206,7 @@ font-weight: 700;
 
 }
 
-/* el menos 100% hace que no se vea siempre*/
+  /* el menos 100% hace que no se vea siempre*/
     .navbar .menu{
 
         position: fixed;
