@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
-html, body,section{
+html, body{
    background-attachment: scroll;
    background-color:black;
    margin: 0;
@@ -10,8 +10,7 @@ html, body,section{
    border: 0;
    box-sizing: border-box;
    text-decoration: none;
-    /* background-color:#1c1d26; */
-   
+    
     font-family: "Trebuchet MS", Helvetica, sans-serif
 }
 
@@ -19,11 +18,6 @@ html{
     scroll-behavior: smooth;
 }
 
-.container-fluid{
-   min-width: 360px;
-   
-   
-}
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
@@ -36,12 +30,27 @@ html{
 
 
 .navbar{
-    position:fixed;
+    position: fixed;
      padding: 15px 0;
      width: 100%;
+    transition: all 0.3s ease;
+    z-index: 999;
+    
     
     
 }
+.navbar .sticky {
+    padding:15px 0;
+    background:#e44c65;
+
+}
+.navbar .width{
+    max-width: 1700px;
+    display: flex;
+    align-items: center;   
+    justify-content: space-between;
+
+        }
 .logo {
     
     width: 105px;
@@ -53,17 +62,13 @@ html{
 .menu ul{
     padding-left: 70px; 
 }
-.navbar .width{
-    width: 100%;
-    display: flex;
-    align-items: center;   
-    justify-content: space-between;
 
-        }
+
+
  .navbar .menu li{
             padding-left: 70px;
             display: inline-block;
-            list-style-type: none;
+            list-style: none;
             
             
             }        
@@ -71,6 +76,9 @@ html{
 
     color:white;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
+   font-size:18px;
+   font-weight: 500px;
+    margin-left: 10px;
     transition: color 0.3 ease;
 
 }
@@ -79,9 +87,9 @@ html{
 
 .navbar .menu li a:hover{
 
-    color: crimson;
+    color: #e44c65;
 }
-
+/*icono para cuando se encoje*/
 .menu-btn{
 
     color: white;
@@ -92,11 +100,11 @@ html{
 }
 
 
+
 #banner {
-    
-    padding-bottom:200px ;    
-    height: 80vh;
-    min-height: 100vh;
+    background:black;
+     
+     min-height: 1000px;
    
    }
 
@@ -113,13 +121,14 @@ html{
     display: relative;
      background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
-    color: #ffffff;
-    background-image: url(imagenes/yo3.jpeg);
-  
-   
-    animation: animate 2s linear infinite;
+    height: 1000px;
     
+    background-image: url(imagenes/yo3.jpeg);
+   background-size:contain;
+   background-color: black;
+    animation: animate 2s linear infinite;
+
+   
 
 
 }
@@ -157,7 +166,8 @@ html{
     line-height: 1.5;
  }
 
- @media (max-width:660px){
+ 
+ @media (max-width:814px){
     .menu-btn{
         display: none;
         z-index:999;
@@ -202,7 +212,7 @@ html{
 #about{
   
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    min-height: 100vh;
+    min-height: 1000px;
     background-color: white;
     padding: 100px 0;
     
@@ -243,7 +253,7 @@ transform: translateX(-50%);
     padding:20px;
     position: absolute;
     font-size: 20px;
-    color: crimson;
+    color: #e44c65;
     height:3px;
     background: white;
     transform: translateX(-50%);
@@ -293,6 +303,8 @@ transform: translateX(-50%);
  #contacto{
     min-height: 100vh;
     padding: 100px 0;
+    background-color:black;
+    
  }
 
  #contacto .tittle-contacto{
@@ -397,6 +409,6 @@ transform: translateX(-50%);
     }
  
 
- #
+ 
 
 }
