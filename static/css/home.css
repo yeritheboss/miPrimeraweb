@@ -1,83 +1,87 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
-html, body{
-   background-attachment: scroll;
-   background-color:black;
-   margin: 0;
-   padding: 0;
-   border: 0;
-   box-sizing: border-box;
-   text-decoration: none;
-    
+html,
+body {
+    background-attachment: scroll;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
     font-family: "Trebuchet MS", Helvetica, sans-serif
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-.max-width{
+.max-width {
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
-    
-  
+
+
 }
 
 /*barra navegadora*/
 
 
-.navbar{
+.navbar {
     position: fixed;
-     padding: 15px 0;
-     width: 100%;
+    padding: 15px 0;
+    width: 100%;
     transition: all 0.3s ease;
     z-index: 999;
-    
-    
-    
-}
-.navbar .sticky {
-    padding:15px 0;
-    background:#e44c65;
+
+
 
 }
-.navbar .width{
+
+.navbar .sticky {
+    padding: 15px 0;
+    background: #e44c65;
+
+}
+
+.navbar .width {
     max-width: 1700px;
     display: flex;
-    align-items: center;   
+    align-items: center;
     justify-content: space-between;
 
-        }
+}
+
 .logo {
-    
+
     width: 105px;
-    height: 100px; 
+    height: 100px;
     padding-left: 5px;
-   
-     
-}
-.menu ul{
-    padding-left: 70px; 
+
+
 }
 
+.menu ul {
+    padding-left: 70px;
+}
 
 
- .navbar .menu li{
-            padding-left: 70px;
-            display: inline-block;
-            list-style: none;
-            
-            
-            }        
-.navbar .menu  li a{
 
-    color:white;
+.navbar .menu li {
+    padding-left: 70px;
+    display: inline-block;
+    list-style: none;
+
+
+}
+
+.navbar .menu li a {
+
+    color: white;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-   font-size:18px;
-   font-weight: 500px;
+    font-size: 18px;
+    font-weight: 500px;
     margin-left: 10px;
     transition: color 0.3 ease;
 
@@ -85,30 +89,32 @@ html{
 
 
 
-.navbar .menu li a:hover{
+.navbar .menu li a:hover {
 
     color: #e44c65;
 }
+
 /*icono para cuando se encoje*/
-.menu-btn{
+.menu-btn {
 
     color: white;
-    font-size:32px;
+    font-size: 32px;
     cursor: pointer;
-    display:none;
-    
+    display: none;
+
 }
 
 
 
 #banner {
-    background:black;
-     
-     min-height: 1000px;
-   
-   }
+    background: black;
+    min-height: 1000px;
 
+}
 
+#banner .width{
+    max-width:1900;
+}
 
 /* presentacion */
 
@@ -117,175 +123,178 @@ html{
 
 
 
-#banner .home-content{
+#banner .home-content {
     display: relative;
-     background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
     height: 1000px;
-    
+
     background-image: url(imagenes/yo3.jpeg);
-   background-size:contain;
-   background-color: black;
+    background-size: contain;
+    background-color: black;
     animation: animate 2s linear infinite;
 
-   
+
 
 
 }
 
 
-@keyframes animate{
-    0%{
-        filter:hue-rotate(0deg);
+@keyframes animate {
+    0% {
+        filter: hue-rotate(0deg);
     }
-    100%{
-        filter:hue-rotate(360deg);
+
+    100% {
+        filter: hue-rotate(360deg);
     }
 }
 
 
 
 
- 
- #banner .descripcion_content p2  {
-     display: inline-block;
-     
-     padding-top: 250px;
-     
-     text-align: center;
-     color: white;
-     font-size: 50px;
-     font-weight: 700;
-  }
 
-  #banner .descripcion_content  span{
- 
-   
+#banner .descripcion_content p2 {
+    display: inline-block;
+
+    padding-top: 250px;
+
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#banner .descripcion_content span {
+
+
     font-size: 70px;
     color: #e44c65;
     line-height: 1.5;
- }
+}
 
- 
- @media (max-width:814px){
-    .menu-btn{
+
+@media (max-width:814px) {
+    .menu-btn {
         display: none;
-        z-index:999;
+        z-index: 999;
     }
-    .navbar .menu{
+
+    .navbar .menu {
 
         position: fixed;
         height: 100vh;
         width: 100%;
         left: 0px;
         top: 0px;
-        background: #111;    
+        background: #111;
         text-align: center;
         padding-top: 80px;
         margin: 0 auto;
         padding-left: 0;
-        z-index:999;
-       
+        z-index: 999;
+
     }
-    .navbar .menu.active{
-    
+
+    .navbar .menu.active {
+
         left: 0;
-        }
-    
-        .navbar .menu li{
-            display: block;
-            padding-left: 0;
-        }
-    
-        .navbar .menu li a{
-    
-            display: inline-block;
-            margin: 20px 0;
-            font-size:25px;
-        }
+    }
+
+    .navbar .menu li {
+        display: block;
+        padding-left: 0;
+    }
+
+    .navbar .menu li a {
+
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
 }
 
 
- 
+
 /*seccion de about*/
 
-#about{
-  
+#about {
+
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     min-height: 1000px;
     background-color: white;
     padding: 100px 0;
-    
-   }
 
-#about .title-about{
-   
+}
+
+#about .title-about {
+
     position: relative;
     text-align: center;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     margin-bottom: 60px;
     padding-bottom: 20px;
-   
-
-}
-
-#about .title-about::before{
-content: "";
-bottom: 0px;
-left: 50%;
-position: absolute;
-width: 330px;
-height:3px;
-background: black;
-transform: translateX(-50%);
-
-
 
 
 }
 
+#about .title-about::before {
+    content: "";
+    bottom: 0px;
+    left: 50%;
+    position: absolute;
+    width: 330px;
+    height: 3px;
+    background: black;
+    transform: translateX(-50%);
 
 
-#about .title-about::after{
+
+
+}
+
+
+
+#about .title-about::after {
     content: "sobre mi";
     bottom: -7px;
     left: 50%;
-    padding:20px;
+    padding: 20px;
     position: absolute;
     font-size: 20px;
     color: #e44c65;
-    height:3px;
+    height: 3px;
     background: white;
     transform: translateX(-50%);
-    
-    
-    
-    }
 
 
-#about .line{
+
+}
+
+
+#about .line {
     content: "hola";
     border-style: none;
     border-top-style: solid;
     border-color: black;
     width: 15%;
     border-width: 5px;
-    margin-bottom:60px;
+    margin-bottom: 60px;
 }
 
-#about .about-section{
+#about .about-section {
 
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
 
-#about .about-section .colum-left{
+#about .about-section .colum-left {
     width: 45%;
 }
 
-#about .about-section .colum-left img{
+#about .about-section .colum-left img {
 
     object-fit: cover;
     border-radius: 6px;
@@ -293,43 +302,44 @@ transform: translateX(-50%);
 }
 
 
-#about .about-section  .colum-right{
+#about .about-section .colum-right {
 
     width: 55%;
 }
- 
 
- 
- #contacto{
+
+
+#contacto {
     min-height: 100vh;
     padding: 100px 0;
-    background-color:black;
-    
- }
+    background-color: black;
 
- #contacto .tittle-contacto{
+}
+
+#contacto .tittle-contacto {
 
     text-align: center;
     color: white;
     font-size: 40px;
     font-weight: 500;
     padding-bottom: 100px;
- }
+}
 
-#contacto .contact-section{
+#contacto .contact-section {
     position: relative;
     display: inline-block;
 }
-#contacto .izquierda{
+
+#contacto .izquierda {
     display: inline-block;
     width: 500px;
     vertical-align: middle;
     color: white;
     margin: 0 auto;
- justify-self:baseline;
+    justify-self: baseline;
 }
 
-#contacto .derecha{
+#contacto .derecha {
     display: inline-block;
     width: 500px;
     vertical-align: middle;
@@ -337,78 +347,79 @@ transform: translateX(-50%);
 
 }
 
-@media (max-width:660px) and (max-height:1000px){
+@media (max-width:660px) and (max-height:1000px) {
 
     /*creacion de la barra del menu*/
-    .menu-btn{
+    .menu-btn {
         display: block;
-        z-index:999;
+        z-index: 999;
     }
 
-   
+
 
     /*para poner la x cuando se abre el menu*/
-.menu-btn i.active:before{
-   content: "\f00d" ;
+    .menu-btn i.active:before {
+        content: "\f00d";
 
-}
+    }
 
-  /* el menos 100% hace que no se vea siempre*/
-    .navbar .menu{
+    /* el menos 100% hace que no se vea siempre*/
+    .navbar .menu {
 
         position: fixed;
         height: 100vh;
         width: 100%;
         left: -100%;
         top: 0px;
-        background: #111;    
+        background: #111;
         text-align: center;
         padding-top: 80px;
         margin: 0 auto;
         padding-left: 0;
-        z-index:999;
-       
-    }
-        /*activado*/
-    .navbar .menu.active{
-    width: inherit;
-    left: 0;
+        z-index: 999;
+
     }
 
-    .navbar .menu li{
+    /*activado*/
+    .navbar .menu.active {
+        width: inherit;
+        left: 0;
+    }
+
+    .navbar .menu li {
         display: block;
         padding-left: 0;
     }
 
-    .navbar .menu li a{
+    .navbar .menu li a {
 
         display: inline-block;
         margin: 20px 0;
-        font-size:25px;
+        font-size: 25px;
     }
-    
+
     .logo {
-    
-         color: white;
+
+        color: white;
         float: left;
-        
+
     }
 
-    .home-content{
-    background-size: cover;
-    background-image: url(imagenes/yo3.jpeg);
-    
+    .home-content {
+        background-size: cover;
+        background-image: url(imagenes/yo3.jpeg);
+
     }
 
-    #banner .descripcion_content  p2{
-        
+    #banner .descripcion_content p2 {
+
         margin: 0;
         padding-top: 60px;
-       padding-left: 0;
-    
-    }
- 
+        padding-left: 0;
 
- 
+    }
+
+
+
 
 }
