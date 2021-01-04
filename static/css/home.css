@@ -233,7 +233,7 @@ html {
     text-align: center;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     margin-bottom: 60px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 
 
 }
@@ -288,6 +288,8 @@ html {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    padding-top: 30px;
+
 }
 
 #about .about-section .colum-left {
