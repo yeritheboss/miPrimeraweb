@@ -1,5 +1,3 @@
-//toggle menu/bar script
-
 $(document).ready(function (){
  //funcion sticky del navbar
     $(window).scroll(function (){

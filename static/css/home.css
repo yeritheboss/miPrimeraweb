@@ -25,12 +25,22 @@ html {
 
 }
 
+#banner {
+    background: black;
+    min-height: 1000px;
+
+}
+
+#banner .width{
+    max-width:1900;
+}
+
 /*barra navegadora*/
 
 
-.navbar {
+#banner  .navbar {
     position: fixed;
-    padding: 15px 0;
+    padding: 15px;
     width: 100%;
     transition: all 0.3s ease;
     z-index: 999;
@@ -39,9 +49,9 @@ html {
 
 }
 
-.navbar .sticky {
-    padding: 15px 0;
-    background: #e44c65;
+#banner .navbar.sticky {
+   
+    background: crimson;
 
 }
 
@@ -80,7 +90,7 @@ html {
 
     color: white;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500px;
     margin-left: 10px;
     transition: color 0.3 ease;
@@ -91,7 +101,7 @@ html {
 
 .navbar .menu li a:hover {
 
-    color: #e44c65;
+    color: crimson;
 }
 
 /*icono para cuando se encoje*/
@@ -106,16 +116,6 @@ html {
 
 
 
-#banner {
-    background: black;
-    min-height: 1000px;
-
-}
-
-#banner .width{
-    max-width:1900;
-}
-
 /* presentacion */
 
 
@@ -128,7 +128,6 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     height: 1000px;
-
     background-image: url(imagenes/yo3.jpeg);
     background-size: contain;
     background-color: black;
@@ -141,13 +140,10 @@ html {
 
 
 @keyframes animate {
-    0% {
-        filter: hue-rotate(0deg);
-    }
-
-    100% {
-        filter: hue-rotate(360deg);
-    }
+    0% { top: 0; }
+    50% { top: 30px; left: 20px; }
+    50% { top: 10px; }
+    100% { top: 0; }
 }
 
 
@@ -262,7 +258,7 @@ html {
     padding: 20px;
     position: absolute;
     font-size: 20px;
-    color: #e44c65;
+    color: crimson;
     height: 3px;
     background: white;
     transform: translateX(-50%);
