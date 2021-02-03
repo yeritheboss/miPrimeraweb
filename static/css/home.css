@@ -162,18 +162,19 @@ html {
     color: white;
     font-size: 50px;
     font-weight: 700;
+    
 }
 
 #banner .descripcion_content span {
 
 
     font-size: 70px;
-    color: #e44c65;
+    color: #0f0;
     line-height: 1.5;
 }
 
 
-@media (max-width:814px) {
+@media (max-width:825px) {
     .menu-btn {
         display: none;
         z-index: 999;
@@ -186,7 +187,7 @@ html {
         width: 100%;
         left: 0px;
         top: 0px;
-        background: #111;
+        background:   rgba(225,225,255,0.02);
         text-align: center;
         padding-top: 80px;
         margin: 0 auto;
@@ -225,7 +226,7 @@ html {
     min-height: 1000px;
     background-color: white;
     padding: 100px 0;
-
+  
 }
 
 #about .title-about {
@@ -293,11 +294,11 @@ html {
 
 }
 
-#about .about-section .colum-left {
+#about .about-section .left {
     width: 45%;
 }
 
-#about .about-section .colum-left img {
+#about .about-section .left img {
 
     object-fit: cover;
     border-radius: 6px;
@@ -305,15 +306,15 @@ html {
 }
 
 
-#about .about-section .colum-right {
+#about .about-section .right {
 
     width: 55%;
 }
 
-#about .about-section .colum-right P {
+#about .about-section .right P {
 text-align: justify;
 }
-#about .about-section .colum-right a{
+#about .about-section .right a{
 display: inline-block;
 background: crimson;
 color: white;
@@ -326,14 +327,28 @@ border: 2px solid crimson;
 transition: all 0.3s ease;
 
 }
-#about .about-section .colum-right a:hover{
+#about .about-section .right a:hover{
 color: crimson;
 background:white;
 }
-@media (max-width:1150px) {
-    about .about-section.colum-{
+@media (max-width:1110px) {
+    
+    #about .about-section .left img{
+        height: 100%;
+        width:100%;
+        padding-right: 30px ;
+
+    }
+
+    #about .about-section .right p{
+        height: 50%;
+        width:100%;
+
+    }
+    #about .about-section .colum{
         width: 50%;
     }
+
 
 }
 
