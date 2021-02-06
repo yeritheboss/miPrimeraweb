@@ -49,6 +49,11 @@ html {
 
 }
 
+.navbar .menu li a:hover {
+    
+    color: crimson;
+}
+
 #banner .navbar.sticky {
    
     background: crimson;
@@ -99,10 +104,7 @@ html {
 
 
 
-.navbar .menu li a:hover {
-    
-    color: crimson;
-}
+
 
 /*icono para cuando se encoje*/
 .menu-btn {
@@ -327,6 +329,18 @@ border: 2px solid crimson;
 transition: all 0.3s ease;
 
 }
+
+#about .about-section .right .text{
+
+ font-size: 25px;
+ font-weight:600;
+ margin-bottom: 10px;
+
+}
+
+#about .about-section .right .text span{
+color:crimson;
+}
 #about .about-section .right a:hover{
 color: crimson;
 background:white;
@@ -356,14 +370,14 @@ background:white;
 #contacto {
     min-height: 100vh;
     padding: 100px 0;
-    background-color: black;
-
+    background: #111;  /* fallback for old browsers */
+  
 }
 
 #contacto .tittle-contacto {
 
     text-align: center;
-    color: crimson;
+    color: white;
     font-size: 40px;
     font-weight: 500;
     padding-bottom: 100px;

@@ -15,4 +15,17 @@ $(document).ready(function (){
 
 
         })
+
+
+
+        //Typed animation
+        var typed= new Typed(".texto",{
+        strings:["Java Programmer","Java Programmer",
+        "Desarrollador web", "Data Scientist"],
+        typespeed:100,
+        backspeed:60,
+        loop:true
+        });
+        
+
 });
