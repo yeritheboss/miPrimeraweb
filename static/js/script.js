@@ -27,5 +27,10 @@ $(document).ready(function (){
         loop:true
         });
         
-
+        
 });
+
+$( document ).ready(function() {
+    new WOW().init();
+  });
+

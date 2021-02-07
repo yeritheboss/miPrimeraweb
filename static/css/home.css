@@ -389,14 +389,150 @@ background:white;
   
 }
 
+#skills .property-section  .left {
+    width: 55%;
+}
+#skills .property-section  .left .text{
 
+    font-size: 25px;
+    font-weight:600;
+    margin-bottom: 10px;
+    padding-top:50px;
+    padding-bottom: 30px;
+   
+   }
+   #skills .property-section  .left .text span{
+    color:crimson;
+    }
+ 
+   #skills .property-section  .left P {
+    text-align: justify;
+    }
+    #skills .property-section  .right{
+        width:45%;
+        margin-left:0px;
+        padding-left: 50px;
+      
+        
+        
+
+    }
+    #skills .property-section  .right li{
+    list-style: none;
+      margin: 20px 0;
+      padding: 0;
+        
+
+    }
+    #skills .property-section  .right  .bar{
+       background: #353b48;
+       display:block;
+       height: 2px;
+       border: 1px solid rgb(0,0,0,0.3);
+       border-radius:3px;
+       overflow: hidden;
+       padding-left:0;
+       padding-right:5px;
+       padding-bottom:5px;
+       box-shadow: 0 0 20px crimson;
+  
+      }
+
+      #skills .property-section  .right  .bar span{
+      
+    height: 2px;
+    float: left;
+    background: crimson;
+    }
+  
+   .java{
+    width:90%;
+    animation: java 2s linear running;
+   
+    
+    }
+    .html{
+        width: 60%;
+        animation: html 2s linear ;
+    }
+    .css{
+        width: 70%;
+        animation: css 2s linear ;
+    }
+    .javascript{
+        width: 55%;
+        animation: javascript 2s linear ;
+    }
+    .rstudio{
+        width: 55%;
+        animation: rstudio 2s linear ;
+    }
+    .python{
+        width: 60%;
+        animation: python 2s linear ;
+    }
+  
+@keyframes java{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:90%;
+    }
+    
+}
+@keyframes html{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:60%;
+    }
+
+}
+@keyframes css{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:70%;
+    }
+
+}
+@keyframes  javascript{
+    
+    0%{
+        width:0%;
+    }
+    100%{
+        width:55%;
+    }
+
+}
+@keyframes rstudio{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:55%;
+    }
+
+}
+@keyframes python{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:60%;
+    }
+
+}
 /*Proyectos*/
 /*CARRUSEL CON ENLACES A LA PAGINA DEL PROYECTO*/
 
     #proyectos .title::after {
         content: "Trabajos";
-       
-      
+             
     }
 
 
