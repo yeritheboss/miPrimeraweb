@@ -9,8 +9,8 @@ body {
     border: 0;
     box-sizing: border-box;
     text-decoration: none;
-
-    font-family: "Trebuchet MS", Helvetica, sans-serif
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    min-width: 905px;
 }
 
 html {
@@ -21,7 +21,7 @@ html {
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
-
+    min-width: 905px;
 
 }
 
@@ -405,7 +405,7 @@ background:white;
 
 }
 
-@media (max-width:660px) and (max-height:1000px) {
+@media (max-width:930px)  {
 
     /*creacion de la barra del menu*/
     .menu-btn {
@@ -455,7 +455,7 @@ background:white;
         margin: 20px 0;
         font-size: 25px;
     }
-
+   
     .logo {
 
         color: white;
@@ -472,7 +472,7 @@ background:white;
     #banner .descripcion_content p2 {
 
         margin: 0;
-        padding-top: 60px;
+        padding-top: 242px;
         padding-left: 0;
 
     }
