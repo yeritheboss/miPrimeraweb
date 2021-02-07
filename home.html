@@ -9,16 +9,15 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <!-- Animation CSS -->
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-  
-    <!--FontAwsome-->
+  <!-- Animation CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!--FontAwsome-->
   <script src="https://kit.fontawesome.com/242628f653.js" crossorigin="anonymous"></script>
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js" integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg==" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"
+    integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg=="
+    crossorigin="anonymous"></script>
   <!--Favicoin-->
   <link rel="icon" href="static/css/imagenes/favicon.ico">
   <!-- JQuery-->
@@ -39,10 +38,13 @@
             <a href="#banner">Home</a>
           </li>
           <li>
-            <a href="cv.html">Curriculum</a>
+            <a href="#about">Sobre mi</a>
           </li>
           <li>
-            <a href="#">Proyectos</a>
+            <a href="#skills">Habilidades</a>
+          </li>
+          <li>
+            <a href="#proyectos">Proyectos</a>
           </li>
           <li>
             <a href="#contacto">Contacto</a>
@@ -67,15 +69,15 @@
           </div>
           <div class="col">
 
-          
+
+          </div>
+
+
+
+
         </div>
 
-
-
-
       </div>
-
-    </div>
 
 
   </section>
@@ -87,17 +89,17 @@
   <section id="about">
     <div class="max-width">
 
-      <h1 class="title-about" style="font-size:72px;
+      <h1 class="title" style="font-size:72px;
           font-weight:bold;">About me</h1>
       <!-- <hr class="line">-->
-      <div class="about-section">
+      <div class="property-section ">
         <div class="colum left">
 
           <img src="static/css/imagenes/yeri.png" alt="" width="400" height="400">
 
         </div>
         <div class="colum right">
-          <div class="text">Soy un  <span class=texto> </span> </div>
+          <div class="text">Soy un <span class=texto> </span> </div>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
             industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
             scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
@@ -109,8 +111,8 @@
           </p>
           <a href="#">Descargar CV</a>
         </div>
-        </div>
       </div>
+    </div>
     </div>
 
 
@@ -119,55 +121,85 @@
 
   </section>
 
+  <section id="skills">
+
+    <div class="max-width">
+      <h1 class="title" style="font-size:72px;
+      font-weight:bold;">Habilidades</h1>
+      <div class="property-section ">
+        <div class="colum left">
+          
+
+        </div>
+
+        <div class="colum right">
+
+        </div>
+      </div>
 
 
+    </div>
+
+
+
+
+
+
+
+
+
+
+  </section>
+
+  <section id="proyectos">
+    <div class="max-width">
+      <h1 class="title" style="font-size:72px;
+      font-weight:bold;">Proyectos</h1>
+      <div class="property-section ">
+        <div class="colum left">
+          
+
+        </div>
+
+        <div class="colum right">
+
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+  </section>
 
   <section id="contacto">
 
-    <h1 class="tittle-contacto">Contacto</h1>
-    <center>
-      <div class="contact-section">
-        <div class="izquierda">
+    <div class="max-width">
 
-          <table cellspacing="5">
-            <tr>
-              <td><strong>Dirección:</strong> </td>
-              <td>Calle Adagio for string <strong>G</strong> 5 <strong>A</strong></td>
-
-            </tr>
-            <tr>
-              <td><strong>Telefono:</strong> </td>
-              <td>633903558</td>
-            </tr>
-
-            <tr>
-              <td><strong>Correo:</strong></td>
-              <td>gz.berroteran@gmail.com</td>
-            </tr>
-          </table>
-          <hr>
-          <i class="fab fa-linkedin-in"></i>
-          <i class="fab fa-facebook"></i>
-          <i class="fab fa-instagram-square"></i>
-        </div>
-
-        <div class="derecha">
-          <form action="mailto:gz.berroteran@gmail.com" method="post" enctype="text/plain">
-
-            <label for="">Nombre:</label>
-            <input type="text" name="yourName" value=""><br>
-            <label for="">Telefono:</label>
-            <input type="text" name="yourPhone" value=""><br>
-            <label for="">Email:</label>
-            <input type="email" name="yourEmail" value=""><br>
-
-            <label for="">Comentario :</label><br>
-            <textarea name="name" cols="40" rows="10"></textarea>
-
-            <input type="submit" name="">
+      <h1 class="title" style="font-size:72px;
+          font-weight:bold;">Contacto</h1>
+      <!-- <hr class="line">-->
+      <div class="property-section ">
+        
+        <div class="colum left">
+          
 
         </div>
-    </center>
+
+        <div class="colum right">
+
+        </div>
+      </div>
+      
+      </div>
   </section>
 
 
@@ -176,15 +208,17 @@
 
 
 
-<!-- Optional JavaScript; choose one of the two! -->
+  <!-- Optional JavaScript; choose one of the two! -->
 
-<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-<script src="static/js/script.js"></script>
-<!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+  </script>
+  <script src="static/js/script.js"></script>
+  <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>

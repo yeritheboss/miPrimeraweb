@@ -22,12 +22,12 @@ html {
     padding: 0 80px;
     margin: auto;
     min-width: 905px;
-
+    min-height: 1000px;
 }
 
 #banner {
     background: black;
-    min-height: 1000px;
+   
 
 }
 
@@ -218,31 +218,39 @@ html {
     
 }
 
-
-
-/*seccion de about*/
-
-#about {
-
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+/*Secciones comun*/
+#about, #skills, #proyectos, #contacto{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
     min-height: 1000px;
-    background-color: white;
     padding: 100px 0;
-  
+
+}
+#skills, #contacto {
+   
+    background-color:#111;
+    color: white;
+}
+.property-section {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+
 }
 
-#about .title-about {
-
+.title{
     position: relative;
     text-align: center;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
     margin-bottom: 60px;
-    padding-bottom: 30px;
-
-
+    padding-bottom: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
-#about .title-about::before {
+.title::before {
     content: "";
     bottom: 0px;
     left: 50%;
@@ -259,8 +267,8 @@ html {
 
 
 
-#about .title-about::after {
-    content: "sobre mi";
+.title::after {
+   
     bottom: -7px;
     left: 50%;
     padding: 20px;
@@ -276,31 +284,31 @@ html {
 }
 
 
-#about .line {
-    content: "hola";
-    border-style: none;
-    border-top-style: solid;
-    border-color: black;
-    width: 15%;
-    border-width: 5px;
-    margin-bottom: 60px;
+
+/*seccion de about*/
+
+#about {
+    background-color: white;
+  
+  
 }
 
-#about .about-section {
 
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 30px;
+#about .title::after {
+    content: "sobre mi";
 
 }
 
-#about .about-section .left {
+
+
+
+
+
+#about .property-section  .left {
     width: 45%;
 }
 
-#about .about-section .left img {
+#about .property-section  .left img {
 
     object-fit: cover;
     border-radius: 6px;
@@ -308,15 +316,15 @@ html {
 }
 
 
-#about .about-section .right {
+#about .property-section  .right {
 
     width: 55%;
 }
 
-#about .about-section .right P {
+#about .property-section  .right P {
 text-align: justify;
 }
-#about .about-section .right a{
+#about .property-section  .right a{
 display: inline-block;
 background: crimson;
 color: white;
@@ -330,7 +338,7 @@ transition: all 0.3s ease;
 
 }
 
-#about .about-section .right .text{
+#about .property-section  .right .text{
 
  font-size: 25px;
  font-weight:600;
@@ -338,28 +346,28 @@ transition: all 0.3s ease;
 
 }
 
-#about .about-section .right .text span{
+#about .property-section  .right .text span{
 color:crimson;
 }
-#about .about-section .right a:hover{
+#about .property-section  .right a:hover{
 color: crimson;
 background:white;
 }
 @media (max-width:1110px) {
     
-    #about .about-section .left img{
+    #about .property-section  .left img{
         height: 100%;
         width:100%;
         padding-right: 30px ;
 
     }
 
-    #about .about-section .right p{
+    #about .property-section  .right p{
         height: 50%;
         width:100%;
 
     }
-    #about .about-section .colum{
+    #about .property-section  .colum{
         width: 50%;
     }
 
@@ -367,45 +375,50 @@ background:white;
 }
 
 
-#contacto {
-    min-height: 100vh;
-    padding: 100px 0;
-    background: #111;  /* fallback for old browsers */
+
+/* habilidades */
+
+
+#skills .title::before {
+
+background:white;
+}
+#skills .title::after {
+    content: "Aptitudes";
+    background:#111;
   
 }
 
-#contacto .tittle-contacto {
 
-    text-align: center;
-    color: white;
-    font-size: 40px;
-    font-weight: 500;
-    padding-bottom: 100px;
-}
+/*Proyectos*/
+/*CARRUSEL CON ENLACES A LA PAGINA DEL PROYECTO*/
 
-#contacto .contact-section {
-    position: relative;
-    display: inline-block;
-}
+    #proyectos .title::after {
+        content: "Trabajos";
+       
+      
+    }
 
-#contacto .izquierda {
-    display: inline-block;
-    width: 500px;
-    vertical-align: middle;
-    color: white;
-    margin: 0 auto;
-    justify-self: baseline;
-}
 
-#contacto .derecha {
-    display: inline-block;
-    width: 500px;
-    vertical-align: middle;
-    color: white;
 
-}
+/* Contacto*/
 
-@media (max-width:930px)  {
+
+#contacto .title::before {
+
+    background:white;
+    }
+    #contacto .title::after {
+        content: "Encuentrame en";
+        background:#111;
+      
+    }
+
+    
+
+
+
+@media (max-width:995px)  {
 
     /*creacion de la barra del menu*/
     .menu-btn {

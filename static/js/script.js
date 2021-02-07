@@ -20,7 +20,7 @@ $(document).ready(function (){
 
         //Typed animation
         var typed= new Typed(".texto",{
-        strings:["Java Programmer","Java Programmer",
+        strings:["Java Programmer","Ingeniero de comunicaciones",
         "Desarrollador web", "Data Scientist"],
         typespeed:100,
         backspeed:60,
