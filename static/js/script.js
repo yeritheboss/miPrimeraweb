@@ -6,7 +6,7 @@ $(document).ready(function (){
         }else{
             $('.navbar').removeClass("sticky");
         }
-        })
+        });
 
        //funcion click menu
       $('.menu-btn').click(function(){
@@ -14,7 +14,7 @@ $(document).ready(function (){
         $('.menu-btn i').toggleClass("active");
 
 
-        })
+        });
 
 
 
@@ -28,9 +28,10 @@ $(document).ready(function (){
         });
         
         
+        $('.carousel').owlCarousel({   
+    
+            });
 });
 
-$( document ).ready(function() {
-    new WOW().init();
-  });
+
 
