@@ -573,15 +573,7 @@ background:white;
     }
 
   
-    #proyectos .property-section{
-        
-        border:inset ;
-        box-shadow: 5px 5px 5px 5px gray;
-        margin:0 auto;
-        border-radius:10px;
-        width:100%;
-    }
-
+ 
     #proyectos .carousel  .card .box{
     display:flex;
     flex-direction: column;
