@@ -143,3 +143,33 @@ font-weight:normal;
     color:gray;
     margin-top: 10px;
 }
+
+.work-group{
+margin: 20px 0;
+}
+.work .work-group{
+    position: relative;
+}
+
+.work-group h3{
+font-size: 22px;
+font-weight: normal;
+padding-left: 70px;
+
+}
+
+.work-group h4{
+    font-size: 18px;
+    padding-left: 70px;
+    font-weight: normal;
+    color:gray;
+}
+
+.work-group span{
+    position:absolute;
+    top: 10px;
+    right: 0px;
+    color:black;
+    font-weight: bold;
+    font-size: 15px;
+}

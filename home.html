@@ -33,6 +33,13 @@
 
 <body>
 
+  <div class="center">
+    <div class="ring">
+    </div>
+    <span class="load">loading...</span>
+  </div>
+
+
   <section id="banner">
 
     <div class="width">
@@ -52,7 +59,7 @@
             <a href="#skills">Habilidades</a>
           </li>
           <li>
-            <a href="#proyectos">Proyectos</a>
+            <a href="#proyectos">Portfolio</a>
           </li>
           <li>
             <a href="#contacto">Contacto</a>
@@ -194,7 +201,7 @@
   <section id="proyectos">
     <div class="max-width">
       <h1 class="title" style="font-size:72px;
-      font-weight:bold;">Proyectos</h1>
+      font-weight:bold;">Portfolio</h1>
       <h2>Algunos de mis proyectos son:</h2>
       <div class="property-section ">
 
@@ -260,6 +267,17 @@
 
   </section>
 
+
+
+
+
+  <section id="cv">
+
+    <img src="static/css/imagenes/cv.jpg" alt="">
+
+  </section>
+
+
   <section id="contacto">
     <div class="max-width">
 
@@ -278,13 +296,14 @@
                 <div class="sub-tittle">Gerangel Berroteran</div>
               </div>
             </div>
-            <div class="row"><div class="row">
-              <i class="fas fa-user"></i>
-              <div class="info">
-                <div class="head">Nombre</div>
-                <div class="sub-tittle">Gerangel Berroteran</div>
+            <div class="row">
+              <div class="row">
+                <i class="fas fa-user"></i>
+                <div class="info">
+                  <div class="head">Nombre</div>
+                  <div class="sub-tittle">Gerangel Berroteran</div>
+                </div>
               </div>
-            </div>
               <i class="fas fa-user"></i>
               <div class="info">
                 <div class="head">Correo</div>
@@ -327,7 +346,11 @@
     -->
 
 
-
+  <script>
+    setTimeout(function () {
+      $('.center').fadeToggle();
+    }, 1500);
+  </script>
 
 </body>
 

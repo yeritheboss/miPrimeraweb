@@ -17,28 +17,93 @@ html {
     scroll-behavior: smooth;
 }
 
+
 .max-width {
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
-    min-width: 905px;
-    min-height: 1000px;
+    min-width: 500px;
+    min-height: 500px;
 }
 
+/*preload pager*/
+
+.center {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #111;
+}
+
+.ring {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation: ring 2s linear infinite;
+}
+
+@keyframes ring {
+    0% {
+        transform: rotate(0deg);
+        box-shadow: 1px 5px 2px #e65c00;
+    }
+
+    50% {
+        transform: rotate(180deg);
+        box-shadow: 1px 5px 2px #18b201;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        box-shadow: 1px 5px 2px #0456c8;
+    }
+}
+
+.ring:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(255, 255, 255, .3);
+}
+
+.load {
+    color: #737373;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 200px;
+    animation: text 3s ease-in-out infinite;
+}
+
+@keyframes text {
+    50% {
+        color: black;
+    }
+}
+
+
+/*Comienza el menu*/
 #banner {
     background: black;
-   
+
 
 }
 
-#banner .width{
-    max-width:1900;
+#banner .width {
+    max-width: 1900;
 }
 
 /*barra navegadora*/
 
 
-#banner  .navbar {
+#banner .navbar {
     position: fixed;
     float: right;
     padding: 33px;
@@ -52,12 +117,12 @@ html {
 
 
 .navbar .menu li a:hover {
-    
+
     color: crimson;
 }
 
 #banner .navbar.sticky {
-   
+
     background: crimson;
 
 }
@@ -72,14 +137,15 @@ html {
 
 
 .logo {
- 
+
     width: 250px;
     height: 200px;
     padding-left: 5px;
 
 
 }
-.espacio{
+
+.espacio {
     width: 150px;
     height: 15px;
     padding-left: 5px;
@@ -172,7 +238,7 @@ html {
     color: white;
     font-size: 50px;
     font-weight: 700;
-    
+
 }
 
 #banner .descripcion_content span {
@@ -197,7 +263,7 @@ html {
         width: 100%;
         left: 0px;
         top: 0px;
-        background:   rgba(225,225,255,0.02);
+        background: rgba(225, 225, 255, 0.02);
         text-align: center;
         padding-top: 80px;
         margin: 0 auto;
@@ -222,23 +288,29 @@ html {
         margin: 20px 0;
         font-size: 25px;
     }
- 
 
-    
+
+
 }
 
 /*Secciones comun*/
-#about, #skills, #proyectos, #contacto{
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+#about,
+#skills,
+#proyectos,
+#contacto {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     min-height: 1000px;
     padding: 100px 0;
 
 }
-#skills, #contacto {
-   
-    background-color:#111;
+
+#skills,
+#contacto {
+
+    background-color: #111;
     color: white;
 }
+
 .property-section {
 
     display: flex;
@@ -249,7 +321,7 @@ html {
 
 }
 
-.title{
+.title {
     position: relative;
     text-align: center;
     font-size: 40px;
@@ -277,7 +349,7 @@ html {
 
 
 .title::after {
-   
+
     bottom: -7px;
     left: 50%;
     padding: 20px;
@@ -298,8 +370,8 @@ html {
 
 #about {
     background-color: white;
-  
-  
+
+
 }
 
 
@@ -313,11 +385,11 @@ html {
 
 
 
-#about .property-section  .left {
+#about .property-section .left {
     width: 45%;
 }
 
-#about .property-section  .left img {
+#about .property-section .left img {
 
     object-fit: cover;
     border-radius: 6px;
@@ -325,58 +397,62 @@ html {
 }
 
 
-#about .property-section  .right {
+#about .property-section .right {
 
     width: 55%;
 }
 
-#about .property-section  .right P {
-text-align: justify;
+#about .property-section .right P {
+    text-align: justify;
 }
-#about .property-section  .right a{
-display: inline-block;
-background: crimson;
-color: white;
-font-size:20px;
-font-weight: 500;
-padding: 10px 30px;
-margin-top: 20px;
-border-radius: 6px;
-border: 2px solid crimson;
-transition: all 0.3s ease;
+
+#about .property-section .right a {
+    display: inline-block;
+    background: crimson;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
 
 }
 
-#about .property-section  .right .text{
+#about .property-section .right .text {
 
- font-size: 25px;
- font-weight:600;
- margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
 
 }
 
-#about .property-section  .right .text span{
-color:crimson;
+#about .property-section .right .text span {
+    color: crimson;
 }
-#about .property-section  .right a:hover{
-color: crimson;
-background:white;
+
+#about .property-section .right a:hover {
+    color: crimson;
+    background: white;
 }
+
 @media (max-width:1110px) {
-    
-    #about .property-section  .left img{
+
+    #about .property-section .left img {
         height: 100%;
-        width:100%;
-        padding-right: 30px ;
+        width: 100%;
+        padding-right: 30px;
 
     }
 
-    #about .property-section  .right p{
+    #about .property-section .right p {
         height: 50%;
-        width:100%;
+        width: 100%;
 
     }
-    #about .property-section  .colum{
+
+    #about .property-section .colum {
         width: 50%;
     }
 
@@ -390,272 +466,302 @@ background:white;
 
 #skills .title::before {
 
-background:white;
+    background: white;
 }
+
 #skills .title::after {
     content: "Aptitudes";
-    background:#111;
-  
+    background: #111;
+
 }
 
-#skills .property-section  .left {
+#skills .property-section .left {
     width: 55%;
 }
-#skills .property-section  .left .text{
+
+#skills .property-section .left .text {
 
     font-size: 25px;
-    font-weight:600;
+    font-weight: 600;
     margin-bottom: 10px;
-    padding-top:50px;
+    padding-top: 50px;
     padding-bottom: 30px;
-   
-   }
-   #skills .property-section  .left .text span{
-    color:crimson;
-    }
- 
-   #skills .property-section  .left P {
+
+}
+
+#skills .property-section .left .text span {
+    color: crimson;
+}
+
+#skills .property-section .left P {
     text-align: justify;
-    }
-    #skills .property-section  .right{
-        width:45%;
-        margin-left:0px;
-        padding-left: 50px;
-      
-        
-        
+}
 
-    }
-    #skills .property-section  .right li{
+#skills .property-section .right {
+    width: 45%;
+    margin-left: 0px;
+    padding-left: 50px;
+
+
+
+
+}
+
+#skills .property-section .right li {
     list-style: none;
-      margin: 20px 0;
-      padding: 0;
-        
+    margin: 20px 0;
+    padding: 0;
 
-    }
-    #skills .property-section  .right  .bar{
-       background: #353b48;
-       display:block;
-       height: 2px;
-       border: 1px solid rgb(0,0,0,0.3);
-       border-radius:3px;
-       overflow: hidden;
-       padding-left:0;
-       padding-right:5px;
-       padding-bottom:5px;
-       box-shadow: 0 0 20px crimson;
-  
-      }
 
-      #skills .property-section  .right  .bar span{
-      
+}
+
+#skills .property-section .right .bar {
+    background: #353b48;
+    display: block;
+    height: 2px;
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0 0 20px crimson;
+
+}
+
+#skills .property-section .right .bar span {
+
     height: 2px;
     float: left;
     background: crimson;
-    }
-  
-   .java{
-    width:90%;
+}
+
+.java {
+    width: 90%;
     animation: java 2s linear running;
-   
-    
+
+
+}
+
+.html {
+    width: 60%;
+    animation: html 2s linear;
+}
+
+.css {
+    width: 70%;
+    animation: css 2s linear;
+}
+
+.javascript {
+    width: 55%;
+    animation: javascript 2s linear;
+}
+
+.rstudio {
+    width: 55%;
+    animation: rstudio 2s linear;
+}
+
+.python {
+    width: 60%;
+    animation: python 2s linear;
+}
+
+@keyframes java {
+    0% {
+        width: 0%;
     }
-    .html{
+
+    100% {
+        width: 90%;
+    }
+
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
         width: 60%;
-        animation: html 2s linear ;
     }
-    .css{
+
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
         width: 70%;
-        animation: css 2s linear ;
     }
-    .javascript{
+
+}
+
+@keyframes javascript {
+
+    0% {
+        width: 0%;
+    }
+
+    100% {
         width: 55%;
-        animation: javascript 2s linear ;
     }
-    .rstudio{
+
+}
+
+@keyframes rstudio {
+    0% {
+        width: 0%;
+    }
+
+    100% {
         width: 55%;
-        animation: rstudio 2s linear ;
     }
-    .python{
+
+}
+
+@keyframes python {
+    0% {
+        width: 0%;
+    }
+
+    100% {
         width: 60%;
-        animation: python 2s linear ;
-    }
-  
-@keyframes java{
-    0%{
-        width:0%;
-    }
-    100%{
-        width:90%;
-    }
-    
-}
-@keyframes html{
-    0%{
-        width:0%;
-    }
-    100%{
-        width:60%;
     }
 
 }
-@keyframes css{
-    0%{
-        width:0%;
-    }
-    100%{
-        width:70%;
-    }
 
-}
-@keyframes  javascript{
-    
-    0%{
-        width:0%;
-    }
-    100%{
-        width:55%;
-    }
-
-}
-@keyframes rstudio{
-    0%{
-        width:0%;
-    }
-    100%{
-        width:55%;
-    }
-
-}
-@keyframes python{
-    0%{
-        width:0%;
-    }
-    100%{
-        width:60%;
-    }
-
-}
 /*Proyectos*/
 /*CARRUSEL CON ENLACES A LA PAGINA DEL PROYECTO*/
 
 
-    #proyectos .title::after {
-        content: "Trabajos";
-        padding: 20px;
-             
-    }
-    #proyectos .carousel  .card{
+#proyectos .title::after {
+    content: "Trabajos";
+    padding: 20px;
+
+}
+
+#proyectos .carousel .card {
     border-radius: 6px;
     box-shadow: 5px 5px 5px 5px gray;
-    padding:25px 35px;
-    background:white;
-    text-align:center;
+    padding: 25px 35px;
+    background: white;
+    text-align: center;
     color: black;
     transition: all 0.3s ease;
-   
-    border:inset;
 
-    }
+    border: inset;
 
-    #proyectos h2{
-        padding-bottom: 20px;
-    }
-    #proyectos .carousel {
-        border: 10px;
-        width: 100%;
-    }
-    #proyectos .carousel  .card:hover{
-        background:#222;
-        color:#fff;
-        border-color: crimson;
+}
 
-    }
+#proyectos h2 {
+    padding-bottom: 20px;
+}
 
-  
- 
-    #proyectos .carousel  .card .box{
-    display:flex;
+#proyectos .carousel {
+    border: 10px;
+    width: 100%;
+}
+
+#proyectos .carousel .card:hover {
+    background: #222;
+    color: #fff;
+    border-color: crimson;
+
+}
+
+
+
+#proyectos .carousel .card .box {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
-    
-    }
-    #proyectos .carousel  .card:hover .box{
-    
-        transform: scale(1.15);
-        }
 
-    #proyectos .carousel  .card img{
-        width:100px;
-        height:100px;
-        margin:0 auto;
-        
+}
 
+#proyectos .carousel .card:hover .box {
 
-    }
+    transform: scale(1.15);
+}
+
+#proyectos .carousel .card img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
 
 
-    #proyectos .carousel  .card .box .titulo-pro{
-     
-     margin: 0 auto;
-     font-size: 25px;
-     font-weight: 500;
-    
-    
-    }
-    
-    #proyectos .carousel  .card .box .titulo-pro:hover{
-     
-       color: crimson;
-       
-       
-       }
+
+}
 
 
-       .owl-dots{
-           text-align: center;
-           margin-top: 20px;
-       }
-       
-       .owl-dot{
-        height: 13px;
-        width: 13px;
-        margin: 0 5px;
-        outline: none!important;
-        border-radius: 50%;
-        border: 2px solid crimson!important;
-        transition: all 0.3s ease;
+#proyectos .carousel .card .box .titulo-pro {
 
-       }
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: 500;
 
-       .owl-dot.active{
+
+}
+
+#proyectos .carousel .card .box .titulo-pro:hover {
+
+    color: crimson;
+
+
+}
+
+
+.owl-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.owl-dot {
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none !important;
+    border-radius: 50%;
+    border: 2px solid crimson !important;
+    transition: all 0.3s ease;
+
+}
+
+.owl-dot.active {
     width: 35px;
-    border-radius: 14px;   
-    }
-    .owl-dot.active,
-    .owl-dot:hover{
-        background: crimson!important;
-    }
+    border-radius: 14px;
+}
+
+.owl-dot.active,
+.owl-dot:hover {
+    background: crimson !important;
+}
+
 /* Contacto*/
 
 
 #contacto .title::before {
 
-    background:white;
-    }
-    #contacto .title::after {
-        content: "Encuéntrame en";
-        background:#111;
-      
-    }
+    background: white;
+}
 
-    
+#contacto .title::after {
+    content: "Encuéntrame en";
+    background: #111;
 
+}
 
 
-@media (max-width:995px)  {
+
+
+
+@media (max-width:995px) {
 
     /*creacion de la barra del menu*/
     .menu-btn {
@@ -705,8 +811,8 @@ background:white;
         margin: 20px 0;
         font-size: 25px;
     }
-   
-   
+
+
 
     .home-content {
         background-size: cover;
@@ -725,4 +831,14 @@ background:white;
 
 
 
+}
+
+#cv {
+    background: #111;
+}
+
+#cv img {
+
+    width: 100%;
+    height: 100%;
 }
