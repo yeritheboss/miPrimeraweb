@@ -23,8 +23,8 @@ $(document).ready(function () {
         strings: ["Java Programmer", "Ingeniero de comunicaciones",
             "Desarrollador web", "Data Scientist"
         ],
-        typespeed: 100,
-        backspeed: 60,
+        typeSpeed: 100,
+        backSpeed: 80,
         loop: true
     });
 

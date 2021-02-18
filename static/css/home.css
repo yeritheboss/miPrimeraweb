@@ -35,6 +35,12 @@ html {
     align-items: center;
     min-height: 100vh;
     background: #111;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
 }
 
 .ring {
