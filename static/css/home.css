@@ -303,7 +303,7 @@ html {
 #about,
 #skills,
 #proyectos,
-#contacto {
+#contacto , footer{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     min-height: 1000px;
     padding: 100px 0;
@@ -767,6 +767,10 @@ html {
 
     width: calc(50%-30px);
 }
+#contacto .property-section .column{
+    width: 100%;
+    margin-bottom: 35px;
+}
 
 #contacto .property-section .text{
     font-size:20px;
@@ -776,6 +780,8 @@ html {
 
  #contacto .property-section .left p{
      text-align: justify;
+     margin-bottom: 0px;
+
 
  }
  #contacto .property-section .row{
@@ -833,7 +839,6 @@ color: crimson;
 #contacto .right form .field input,
 #contacto .right form .textarea textarea{
     margin-right: 10px;
-
     height: 100%;
     width: 100%;
     border: 1px solid lightgray;
@@ -842,25 +847,65 @@ color: crimson;
     padding: 0 15px;
     font-size: 17px;
     font-family:'Poppins', sans-serif;
+   
 
 }
 
 #contacto .right form .textarea textarea{
     padding-top:10px ;
     resize: none;
+    height: 214;
+    margin-bottom: 37px;
 }
 
 #contacto .right form .button {
 
     height: 47px;
     width: 170px;
+    margin-top: 70px;
 
 }
 
 #contacto .right form .button button{
     height: 100%;
     width: 100%;
+    border: 2px solid crimson;
+    background: crimson;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition:all 0.3s ease;
 }
+#contacto .right form .button button:hover{
+ color: crimson;
+ background: none;
+}
+
+
+
+/*footer*/
+
+
+footer{
+    background: #111;
+    padding: 20px 23px;
+    color: white;
+  
+}
+footer span a{
+    color: crimson;
+    text-decoration: none;
+}
+
+footer span a:hover{
+    
+    text-decoration: underline;
+}
+
+
+
  #cv {
     background: #111;
 }
