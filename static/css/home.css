@@ -129,11 +129,13 @@ html {
 #banner .navbar.sticky {
 
     background: crimson;
+    padding-bottom: 0px;
+    padding-top: 10px;
 
 }
 
 .navbar .width {
-    max-width: 1700px;
+    max-width: 1300px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -333,6 +335,7 @@ html {
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
+    padding-top: 41px;
     font-family: 'Trebuchet MS', sans-serif;
 }
 
