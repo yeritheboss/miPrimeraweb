@@ -50,4 +50,26 @@ $(document).ready(function () {
             }
         }
     });
+
+    setTimeout(function () {
+      $('.center').fadeToggle();
+    }, 1500);
+
+    function sendMail(params){
+        var tempParams={
+            from_name: document.getElementById("fromName").value,
+            from_email:document.getElementById("fromEmail").value,
+            subject:document.getElementById("subject").value,
+            message: document.getElementById("msg").value,
+        };
+
+        emailjs.send('service_jam5heg','template_cynocgd', tempParams)
+        .then(function(res){
+            console.log("success", res.status);
+        })
+
+    }
+
+
+   
 });
