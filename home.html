@@ -25,15 +25,18 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
- 
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"> </script>
   <script src="static/js/script.js"></script>
-  <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-<script type="text/javascript">
-(function(){
-emailjs.init("user_m44chXvDT3qCnEshtFDkY");
-})();
-</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.min.js">
+  </script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("user_m44chXvDT3qCnEshtFDkY");
+    })();
+  </script>
   <title>Gerangel Berroteran Website</title>
 </head>
 
@@ -294,9 +297,9 @@ emailjs.init("user_m44chXvDT3qCnEshtFDkY");
 
 
         <div class="colum left">
-          
+
           <p>Si tienes algún proyecto o te interesa algunos de mis servicios <br>
-             aqui te dejo mi pagina comercial :</p>
+            aqui te dejo mi pagina comercial :</p>
           <div class="icons">
             <div class="row">
               <i class="fas fa-globe" style="padding-left: 4px;"></i>
@@ -348,15 +351,15 @@ emailjs.init("user_m44chXvDT3qCnEshtFDkY");
                 <input type="text " placeholder="Nombre" id="fromName">
               </div>
               <div class="field email">
-                <input type="email" placeholder="Email" id="fromEmail">
+                <input type="text" placeholder="Email" id="fromEmail">
               </div>
             </div>
 
             <div class="field">
-              <input type="text" placeholder="Asunto"  id="subject">
+              <input type="text" placeholder="Asunto" id="subject">
             </div>
             <div class="field textarea">
-              <textarea cols="30" rows="10" placeholder="Describe el proyecto" style="height:211px" id="msg"></textarea>
+              <textarea ty cols="30" rows="10" placeholder="Describe el proyecto" style="height:211px" id="msg"></textarea>
             </div>
             <div class="button" style="margin-top:143px">
               <button onclick='sendMail()'>Enviar</button>
@@ -369,9 +372,10 @@ emailjs.init("user_m44chXvDT3qCnEshtFDkY");
     </div>
   </section>
 
-<footer>
-  <span>Creado por <a href="#">Gerangel</a>| <span class="far fa-copyright"></span>2019 todos los derechos reservados. </span>
-</footer>
+  <footer>
+    <span>Creado por <a href="#">Gerangel</a>| <span class="far fa-copyright"></span>2019 todos los derechos reservados.
+    </span>
+  </footer>
 
 
 

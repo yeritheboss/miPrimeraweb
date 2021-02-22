@@ -55,7 +55,9 @@ $(document).ready(function () {
       $('.center').fadeToggle();
     }, 1500);
 
+   
     function sendMail(params){
+       
         var tempParams={
             from_name: document.getElementById("fromName").value,
             from_email:document.getElementById("fromEmail").value,
