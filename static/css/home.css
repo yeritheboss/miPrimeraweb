@@ -1024,6 +1024,125 @@ footer span a:hover{
     }
 }
 
+@media (max-width: 420px) {
+
+    .logo{
+        width: 137px;
+        height: 137px;
+
+    }
+    #banner .home-content {
+
+        height: 341px;
+    }
+    #banner .descripcion_content p2 {
+    
+        font-size: 35px;
+    }
+
+    #banner .descripcion_content span {
+    
+        font-size: 47px;
+    }
+    .home-content {
+        background-size: cover;
+        background-image: url(imagenes/yo3.jpeg);
+
+    }
+    #banner .descripcion_content p2 {
+
+    
+        padding-top: 0px;
+       
+    
+    }
+
+    #banner .home-content {
+     
+
+        height:285px;
+
+}
+#banner .descripcion_content span {
+
+    font-size: 48px;
+
+}
+#banner .descripcion_content p2{
+
+    font-size: 30px;
+}
+
+#about{
+
+    
+    padding-bottom: 38px;
+
+}
+#about .property-section{
+   display:inline-block;
+   padding-top:0px;
+   
+
+}
+
+
+#about .property-section .left  {
+
+position: relative;
+display: block;
+width: 100%;
+}
+#about .property-section .left img{
+    padding-bottom: 20px;
+    padding-right: 0px;
+
+}
+
+#about .property-section .right {
+
+   position: relative;
+   display: block;
+   width: 100%;
+}
+
+
+#skills .title{
+    
+    font-size: 60px;
+  
+    
+}
+
+
+#skills .property-section{
+    display:inline-block;
+    padding-top:0px;
+    
+ 
+ }
+ 
+ 
+ #skills .property-section .left  {
+ 
+ position: relative;
+ display: block;
+ width: 100%;
+ }
+ 
+
+#skills .property-section .left .text {
+padding-top:0px;
+
+}
+ #skills .property-section .right {
+
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-left:0px;
+ }
+}
 
 @media (max-width: 380px) {
 
