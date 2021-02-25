@@ -1024,6 +1024,7 @@ footer span a:hover{
     }
 }
 
+
 @media (max-width: 420px) {
 
     .logo{
@@ -1033,45 +1034,27 @@ footer span a:hover{
     }
     #banner .home-content {
 
-        height: 341px;
+        height: 416px;
+        
     }
     #banner .descripcion_content p2 {
     
-        font-size: 35px;
+        font-size: 36px;
+        padding-top: 27px;
     }
 
     #banner .descripcion_content span {
     
-        font-size: 47px;
+        font-size: 51px;
     }
     .home-content {
         background-size: cover;
         background-image: url(imagenes/yo3.jpeg);
 
     }
-    #banner .descripcion_content p2 {
+  
 
-    
-        padding-top: 0px;
-       
-    
-    }
 
-    #banner .home-content {
-     
-
-        height:285px;
-
-}
-#banner .descripcion_content span {
-
-    font-size: 48px;
-
-}
-#banner .descripcion_content p2{
-
-    font-size: 30px;
-}
 
 #about{
 
@@ -1143,6 +1126,7 @@ padding-top:0px;
     padding-left:0px;
  }
 }
+
 
 @media (max-width: 380px) {
 
