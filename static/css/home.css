@@ -257,48 +257,7 @@ html {
 }
 
 
-@media (max-width:825px) {
-    .menu-btn {
-        display: none;
-        z-index: 999;
-    }
 
-    .navbar .menu {
-
-        position: fixed;
-        height: 100vh;
-        width: 100%;
-        left: 0px;
-        top: 0px;
-        background: rgba(225, 225, 255, 0.02);
-        text-align: center;
-        padding-top: 80px;
-        margin: 0 auto;
-        padding-left: 0;
-        z-index: 999;
-
-    }
-
-    .navbar .menu.active {
-
-        left: 0;
-    }
-
-    .navbar .menu li {
-        display: block;
-        padding-left: 0;
-    }
-
-    .navbar .menu li a {
-
-        display: inline-block;
-        margin: 20px 0;
-        font-size: 25px;
-    }
-
-
-
-}
 
 /*Secciones comun*/
 #about,
@@ -331,7 +290,7 @@ html {
 .title {
     position: relative;
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
@@ -918,7 +877,29 @@ footer span a:hover{
     height: 100%;
 }
 
-@media (max-width:995px) {
+
+/* responsive media query start */
+@media (max-width: 1300px) {
+    .home .max-width{
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 1104px) {
+    #about .property-section .left img {
+       
+        object-fit: cover;
+        border-radius: 6px;
+    }
+}
+@media (max-width: 991px) {
+    .max-width{
+        padding: 0 50px;
+    }
+}
+
+
+@media (max-width:947px) {
 
     /*creacion de la barra del menu*/
     .menu-btn {
@@ -989,4 +970,173 @@ footer span a:hover{
 
 
 }
+
+@media (max-width:852px) {
+
+    .logo{
+
+        width: 205px;
+    }
+    #banner .home-content {
+     
+
+        height:660px;
+
+}
+
+#banner .descripcion_content p2 {
+
+    
+    padding-top: 121px;
+   
+
+}
+
+
+
+}
+
+@media (max-width: 690px) {
+    .max-width{
+        padding: 0 23px;
+    }
+
+    #banner .descripcion_content p2 {
+
+    
+        padding-top: 48px;
+       
+    
+    }
+
+    #banner .home-content {
+     
+
+        height:515px;
+
+}
+    .home .home-content .descripcion_content{
+        font-size: 60px;
+    }
+ 
+    .services .serv-content .card{
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 380px) {
+
+    .max-with{
+        max-width: 370px;
+
+    }
+    .logo{
+        width: 154px;
+        height: 145px;
+
+    }
+    .home-content {
+        background-size: cover;
+        background-image: url(imagenes/yo3.jpeg);
+
+    }
+    #banner .descripcion_content p2 {
+
+    
+        padding-top: 0px;
+       
+    
+    }
+
+    #banner .home-content {
+     
+
+        height:285px;
+
+}
+#banner .descripcion_content span {
+
+    font-size: 48px;
+
+}
+#banner .descripcion_content p2{
+
+    font-size: 30px;
+}
+
+#about{
+
+    
+    padding-bottom: 38px;
+
+}
+#about .property-section{
+   display:inline-block;
+   padding-top:0px;
+   
+
+}
+
+
+#about .property-section .left  {
+
+position: relative;
+display: block;
+width: 100%;
+}
+#about .property-section .left img{
+    padding-bottom: 20px;
+    padding-right: 0px;
+
+}
+
+#about .property-section .right {
+
+   position: relative;
+   display: block;
+   width: 100%;
+}
+
+
+#skills .title{
+    
+    font-size: 60px;
+  
+    
+}
+
+
+#skills .property-section{
+    display:inline-block;
+    padding-top:0px;
+    
+ 
+ }
+ 
+ 
+ #skills .property-section .left  {
+ 
+ position: relative;
+ display: block;
+ width: 100%;
+ }
+ 
+
+#skills .property-section .left .text {
+padding-top:0px;
+
+}
+ #skills .property-section .right {
+
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-left:0px;
+ }
+
+}
+
+
+
 
