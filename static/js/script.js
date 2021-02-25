@@ -52,6 +52,17 @@ $(document).ready(function () {
   setTimeout(function () {
     $(".center").fadeToggle();
   }, 1500);
+
+
+  $('.button').click(function(){
+
+ alertify.success("Se ha enviado el mensaje con exito");
+
+
+  });
+
+
+
 });
 
 function sendMail(params) {
