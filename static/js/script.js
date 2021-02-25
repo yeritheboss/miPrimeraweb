@@ -54,12 +54,7 @@ $(document).ready(function () {
   }, 1500);
 
 
-  $('.button').click(function(){
 
- alertify.success("Se ha enviado el mensaje con exito");
-
-
-  });
 
 
 
@@ -77,5 +72,16 @@ function sendMail(params) {
     .send("service_jam5heg", "template_cynocgd", tempParams)
     .then(function (res) {
       console.log("success", res.status);
+    });
+
+
+    $('.button').click(function(){  
+        if(tempParams==""){
+
+          alertify.error("debe introducir algun dato");
+        }else{
+          alertify.success("Se ha enviado el mensaje con exito");
+         }
+          
     });
 }
