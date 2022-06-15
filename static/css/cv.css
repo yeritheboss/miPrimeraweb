@@ -292,6 +292,12 @@ button:hover{
     .btn-imprimir{
         visibility:  hidden;
     }
+    .header img{
+        filter:none;
+        
+        border: 5px solid crimson;
+        
+        }
 }
 
 @media (min-width:1524px) {
