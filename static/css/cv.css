@@ -10,7 +10,7 @@ strong{
     font-size: larger;
 }
 .print-area{
-  width: 80%;
+  width: 100%;
   margin: 20px auto;  
   
 }
@@ -279,10 +279,18 @@ button:hover{
 
 @media print{
     body *{
-        visibility:hidden;
+        visibility:visible;
+        
     }
+ 
+  
     .print-area *{
         visibility:visible;
+
+    }
+
+    .btn-imprimir{
+        visibility:  hidden;
     }
 }
 
